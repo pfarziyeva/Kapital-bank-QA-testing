@@ -17,7 +17,7 @@
   ## 3) Test nəticəsində bug varsa bug report hazırlanacaq
  ## 4) Kritik xətalar dərhal komanda ilə paylaşılacaq
  # Test növləri
-  ## 1) SMOKE test ( əsas funksiyalar düzgün işləyirmi )
+  ## 1) SMOKE test ( əsas funksiyalar sürətli test olunur )
 ## 2) Fünksional test ( Bütün əsas əməliyyatlar test ediləcək)
 ## 3) Regression test (Əvvəlki testlərdə işləyən fünksiyalar yenidən yoxlanılacaq)
  ## 4) Uİ/UX Test 
