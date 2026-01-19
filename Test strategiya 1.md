@@ -13,7 +13,7 @@
  ## TEST  NÖVLƏRİ
  ### Funksional test ,Smoke test, Regression test ,UI test, Security test.
  ## TEST ENVİRONMENT
- ### Platforma:Mobil (Android/Ios) və ya veb
+ ### OS : Windows 11 ,Android/Ios 
  ### Brauzer: GOOGLE Chrome
  ## ROLLAR
  ### Project Manager ,Developer, QA Engineer
