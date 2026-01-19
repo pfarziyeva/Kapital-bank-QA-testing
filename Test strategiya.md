@@ -1,7 +1,8 @@
-#  Test Strategiya  Kapital Bank veb tətbiqi üçün
+#  Test Strategiya
+## Projekt name
+### Kapital Bank veb tətbiqi 
  ## MƏQSƏD
  ### Məqsədimiz  Kapital  Bank veb tətbiqinin istifadəçi tələblərinə uyğun işlədiyini yoxlamaq , Kritik  bank  əməliyyatlarında xətaların qarşısını almaq, istifadəçi məlumatlarının təhlukəsizliyini  təmin etməkdir.
- ## Metod: SCRUM metodologiyası
  ## TEST SKOPE
  ### Istifadəçi giriş və çıxışı (LOGİN/LOGOUT)
  ### Hesab balansının görüntülənməsi
@@ -15,8 +16,17 @@
  ### Platforma:Mobil (Android/Ios) və ya veb
  ### Brauzer: GOOGLE Chrome
  ## ROLLAR
- ### Product Owner ,Scrum Master ,Developer team
+ ### Project Manager ,Developer, QA Engineer
  ##  TEST  SƏNƏDLƏRİ
  ### Test Case, Bug report ,Test summary report
  ##  RİSKLƏR
- ### Login funksiyasının işləməməsi, pul köçürmələrində səhvlər, balansın yanlış göstərilməsi, Kart və ödəniş əməliyyatlarında xətalar , Təhlikəsizlik zəiflikləri
+ ### Login funksiyasının işləməməsi
+### pul köçürmələrində səhvlər
+### balansın yanlış göstərilməsi
+### Kart və ödəniş əməliyyatlarında xətalar 
+### Təhlikəsizlik boşluğu
+
+
+
+
+ 
