@@ -5,9 +5,7 @@
  ###  Pul köçürmələrinin yarımçıq və ya səhv tamamlanması.Pul hesabdan  çıxır amma qarşı tərəfə çatmır
 ## 3) Balansın səhv göstərilməsi
 ###   Heasb balansının real məbləğə uyğun olmaması
-## 4) Kart əməliyyatlarının səhvləri
-###   Kart bloklanması ,limit dəyişməsi və digər əməliyyatların düzgün işləməməsi
-## 5) Ödənişlərin təstiqlənməməsi
+## 4) Ödənişlərin təstiqlənməməsi
 ###   Kommunal mobil və ya internet ödənişləri tamamlanmaya bilər. Balansan ikiqat ödənişin çıxması
-## 6) Tətbiqin donması və ya bağlanması
+## 5) Tətbiqin donması və ya bağlanması
 ###   Əməliyyat zamanı tətbiqin dayanması cari əməliyyatların yarımçıq qalması ilə nəticələnir
