@@ -14,8 +14,8 @@
 # RISKLƏR
 ## LOGIN fwnksiyasının işləməməsi
 ## Pul köçürməsində səhvlər
-## Kart və  ödəniş əməliyyatlarında xətalar
-## Təhlukəsizlik boşluqları
+## Kart və  ödəniş əməliyyatlarında xətalar ( Yanlış kart hesabına pul köçürme )
+## Təhlukəsizlik boşluqları ( Hacker hucumlarına məruz qalma ilə nəticələnə bilər)
 ##
 ##
 ##
