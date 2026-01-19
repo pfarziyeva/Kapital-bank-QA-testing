@@ -21,8 +21,8 @@
  ### Test Case, Bug report ,Test summary report
  ##  RİSKLƏR
  ### Login funksiyasının işləməməsi
-### pul köçürmələrində səhvlər
-### balansın yanlış göstərilməsi
+### Pul köçürmələrində səhvlər
+### Balansın yanlış göstərilməsi
 ### Kart və ödəniş əməliyyatlarında xətalar 
 ### Təhlikəsizlik boşluğu
 
