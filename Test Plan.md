@@ -7,6 +7,7 @@
   ## 4) Kart idarəetməsi (bloklama, limit dəyişimi)
   ## 5) Ödəniş əməliyyatları ( Kommunal, mobil , internet )
   ## 6) Əməliyyat tarixçəsi və bildirişlərin yoxlanması
+  ## 7) Dil seçimi ( AZ /EN/ RU )
   # Test muhiti
   ## Platforma: Mobil( Android / İOS )
   ## Brwser: GOOGLE CHROME 
@@ -19,4 +20,7 @@
   ## 1) SMOKE test ( əsas funksiyalar düzgün işləyirmi )
 ## 2) Fünksional test ( Bütün əsas əməliyyatlar test ediləcək)
 ## 3) Regression test (Əvvəlki testlərdə işləyən fünksiyalar yenidən yoxlanılacaq)
- ## 4) Uİ Test Və Security test
+ ## 4) Uİ/UX Test 
+## 5) Security test
+
+ 
