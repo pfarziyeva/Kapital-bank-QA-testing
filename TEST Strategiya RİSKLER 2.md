@@ -6,6 +6,6 @@
 ## 3) Balansın səhv göstərilməsi
 ###   Heasb balansının real məbləğə uyğun olmaması
 ## 4) Ödənişlərin təstiqlənməməsi
-###   Kommunal mobil və ya internet ödənişləri tamamlanmaya bilər. Balansan ikiqat ödənişin çıxması
+###   Kommunal mobil və ya internet ödənişləri tamamlanmaya bilər. Balansdan ikiqat ödənişin çıxması
 ## 5) Tətbiqin donması və ya bağlanması
 ###   Əməliyyat zamanı tətbiqin dayanması cari əməliyyatların yarımçıq qalması ilə nəticələnir
