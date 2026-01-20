@@ -9,7 +9,7 @@
   ## 6) Əməliyyat tarixçəsi və bildirişlərin yoxlanması
   ## 7) Dil seçimi ( AZ /EN/ RU )
   # Test muhiti
-  ## Platforma: Mobil( Android / İOS )
+  ## OS : Mobil( Android / İOS ),Windows 11
   ## Brwser: GOOGLE CHROME 
   # Test yanaşması
   ## 1) Testlər manual şəkildə aparılacaq
