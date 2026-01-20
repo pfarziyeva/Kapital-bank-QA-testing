@@ -9,3 +9,5 @@
 ###   Kommunal mobil və ya internet ödənişləri tamamlanmaya bilər. Balansdan vəsait çıxır amma ödəniş təstiqlənmir.
 ## 5) Tətbiqin donması və ya bağlanması
 ###   Əməliyyat zamanı tətbiqin dayanması cari əməliyyatların yarımçıq qalması ilə nəticələnir
+## 6 ) Təhlukəsizlik boşluqları
+###  Məsələn səhv şifrəni çox yazanda hesab bloklanmaması  Hacker hucumlarına şərait yaradır
