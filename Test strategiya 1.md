@@ -11,7 +11,11 @@
  ### Bildirişlər və əməliyyat tarixçəsi
  ### Ödənişlər (kommunal mobil internet və s)
  ## TEST  NÖVLƏRİ
- ### Funksional test ,Smoke test, Regression test ,UI test, Security test.
+ ### Funksional test 
+  ### Smoke test
+### Regression test 
+### UI test
+### Security test.
  ## TEST ENVİRONMENT
  ### OS : Windows 11 ,Android/Ios 
  ### Brauzer: GOOGLE Chrome
@@ -19,12 +23,8 @@
  ### Project Manager ,Developer, QA Engineer
  ##  TEST  SƏNƏDLƏRİ
  ### Test Case, Bug report ,Test summary report
- ##  RİSKLƏR
- ### Login funksiyasının işləməməsi
-### Pul köçürmələrində səhvlər
-### Balansın yanlış göstərilməsi
-### Kart və ödəniş əməliyyatlarında xətalar 
-### Təhlikəsizlik boşluğu
+ 
+ 
 
 
 
