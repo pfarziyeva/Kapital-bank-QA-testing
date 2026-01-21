@@ -1,9 +1,12 @@
 # Project :  Kapital Bank veb tətbiqi
-# Məqsəd : Tətbiqin əsas fünksiyalarının  düzgün işlədiyini yoxlamaq səhvləri  erkən aşkar etmək və istifadəçi təcrübəsinin sabitliyini təmin etməkdir.
+# Hazırlayan: Pərvin Hümmətova
+# Testin başlama və bitmə tarixi:
+## 18/01/2026 - 21/01/2026
+# Məqsəd : Tətbiqin əsas fünksiyalarının  düzgün işlədiyini yoxlamaq, səhvləri  erkən aşkar etmək və istifadəçi təcrübəsinin sabitliyini təmin etməkdir.
 # Test Skope  ( İN Scope)
   ## 1) İstifadəçi qeydiyyatı və login
   ## 2) Hesab balansının yoxlanması
-  ## 3) Pul köçürmələri
+  ## 3) Pul köçürmələri  ( Öz hesablarım və istənilən bank kartına köçürmə )
   ## 4) Kart idarəetməsi (bloklama, limit dəyişimi)
   ## 5) Ödəniş əməliyyatları ( Kommunal, mobil , internet )
   ## 6) Əməliyyat tarixçəsi və bildirişlərin yoxlanması
@@ -51,7 +54,9 @@
 ## Low severity risklər
 ### UI elementlərinin kiçik dizayn problemi
 ### Yazıların doğru olmaması
-# Testin başlama və bitmə tarixi
-## 18/01/2026 - 21/01/2026
+# Qəbul kriteriyaları
+Bütün high severity buglar həll olunmalıdır
+Fünksional testlərin 95% -i uğurlu olmalıdır
+Tətbiq 2 saniyədən uzun yuklənməməlidir
 
  
