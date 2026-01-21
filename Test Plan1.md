@@ -49,16 +49,16 @@
 ## Test summary report
 ## Test strategiya sənədi
 # RİSKLƏR
-## Hight Severity Risklər
+## Hight Severity Risklər:
 ### İstifadəçi məlumatlarının sızması
 ### Ödəniş əməliyyatının düzgün işdəməməsi yəni hesabdan artıq məbləğin çıxılması
 ### Avtorizasiya və acces control zəifliyi ( istifadəçi başqasının hesabına daxil ola bilər)
 ###  Şifrə  bərpası və autentifikasiya prosesində boşluqlar (Müştəri hesabına icazəsiz giriş, məlumatların sızması)
 ### əməliyyat prossesində kritik səhvlər (fund transfer) - Transfer səhv hesaba göndərilir və geri qaytarılmır
-## Medium severity risklər
+## Medium severity risklər:
 ### Hesab çıxarışının yavaş yüklənməsi
 ### müəyyən brauzerlərdə səhifə formatının pozulması
-## Low severity risklər
+## Low severity risklər:
 ### UI elementlərinin kiçik dizayn problemi
 ### Yazıların doğru olmaması
 #  Exit Criteria
