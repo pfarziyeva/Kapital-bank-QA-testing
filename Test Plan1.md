@@ -16,6 +16,13 @@
   ## Real maliyyə əməliyyatları
  ## core banking  sistemi əməliyyatları( Backend serverdə maliyyə  əməliyyatları)
  ## Üçüncü tərəf daxili sistemləri ( məsələn bankın daxili audit sistemi)
+ # Entry Criteria
+## Testin başlaya bilməsi üçün 
+## Test ediləcək tətbiq staging mühitində hazır olmalıdır
+## Bütün əsas fünksiyalar tətbiqdə mövcüd olmalıdır
+## Test data hazırlanmalıdır ( hesablar istifadəçi məlumatları)
+## Test mühiti (brauzer OS alətlər ) işlək vəziyyətdə olmalıdır
+## Test sənədləri hazır olmalıdır
   # Test muhiti
   ## OS : Mobil( Android / İOS ), Windows 11,macOS
   ## Browser: GOOGLE CHROME ,Firefox
@@ -54,9 +61,11 @@
 ## Low severity risklər
 ### UI elementlərinin kiçik dizayn problemi
 ### Yazıların doğru olmaması
-# Qəbul kriteriyaları
-Bütün high severity buglar həll olunmalıdır
-Fünksional testlərin 95% -i uğurlu olmalıdır
-Tətbiq 2 saniyədən uzun yuklənməməlidir
+#  Exit Criteria
+## Bütün high severity buglar həll olunub
+## Test  caselərin  95% -i uğurlu keçib
+## Bütün kritik fünksiyalar işləkdir
+## Test nəticələri sənədləşdirilib
+
 
  
