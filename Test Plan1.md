@@ -13,7 +13,7 @@
   ## 7) Dil seçimi ( AZ /EN/ RU )
   ## 8) Logout
   # Out of Scope
-  ## Real maliyyə əməliyyatları
+  ## Real maliyyə əməliyyatları:
  ## core banking  sistemi əməliyyatları( Backend serverdə maliyyə  əməliyyatları)
  ## Üçüncü tərəf daxili sistemləri ( məsələn bankın daxili audit sistemi)
  # Entry Criteria
@@ -21,7 +21,7 @@
 ## Test ediləcək tətbiq staging mühitində hazır olmalıdır
 ## Bütün əsas fünksiyalar tətbiqdə mövcüd olmalıdır
 ## Test data hazırlanmalıdır ( hesablar istifadəçi məlumatları)
-## Test mühiti (brauzer OS alətlər ) işlək vəziyyətdə olmalıdır
+## Test mühiti (browser, OS alətlər ) işlək vəziyyətdə olmalıdır
 ## Test sənədləri hazır olmalıdır
   # Test muhiti
   ## OS : Mobil( Android / İOS ), Windows 11,macOS
