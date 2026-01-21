@@ -1,1 +1,0 @@
-# Kapital-bank-QA-testing
