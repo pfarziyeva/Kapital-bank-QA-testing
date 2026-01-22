@@ -33,16 +33,18 @@
   # Test Environments :
   - OS : Mobil( Android / İOS ), Windows 11,macOS
   - Browser: GOOGLE CHROME ,Firefox
+  - Network : Internet  bağlantısı
   # Test Approach
  - Testlər manual şəkildə aparılacaq
  - Hər test fünksiyası üçün test case hazırlanacaq
  - Test nəticəsində bug varsa bug report hazırlanacaq
 - Kritik xətalar dərhal komanda ilə paylaşılacaq
  # Test növləri
+## Fünctional  Testing : 
 - SMOKE test ( əsas funksiyalar sürətli test olunur )
-- Fünksional test ( Bütün əsas əməliyyatlar test ediləcək)
 - Regression test (Əvvəlki testlərdə işləyən fünksiyalar yenidən yoxlanılacaq)
-- Exploratory test - Tətbiqin təcrübə əsaslı test edilməsidir
+- Acceptance  Testing ( UAT) - Sitemin  biznes  tələblərinə  uyğun  olub olmadığını  yoxlamaq  məqsədi  iləı  aparılır
+  ## Non Fwnction Testing :
 - Uİ/UX Test - İstifadəçinin saytda gördüyü elementlərin düzgün olması və istifadə rahatlığının təmin edilməsi
 - Security test-Tətbiqdə istifadəçi  məlumatlarının və əməliyyatlarının  qorunması üçün aparılır
 - Compatiblity test - Fərqli cihaz , muhit  və  platformada tətbiqin düzgün işləməsini təmin etmək üçün aparılır
@@ -93,6 +95,9 @@
 - Bütün kritik fünksiyalar işləkdir
 -  Test nəticələri sənədləşdirilib
 -   Test  Summary  Report hazırlanıb
+  #  NƏTİCƏ
+  ## Bu  test  plan  bank  veb  tətbiqinin keyfiyyət  təhlukəsizlik  və  istifadəçi   tələblərinəə tam  uyğun  şəkildə  qurulmasını  təmin etmək  məqsədi  ilə  hazırlanmışdır .  Test  prosesində   əsas  yol  xəritəsi  rolunu  oynayan  vacib  dakumentasyadır.
+  
 
 
  
