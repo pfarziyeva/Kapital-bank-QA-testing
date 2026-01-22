@@ -29,8 +29,8 @@
   - Düzgün və yanlış Login məlumatları
   - Test istifadəçi hesabları
   - Saxta kart nömrələri
-  - Minimum maksimum və yanlış köçürmə məbləğləri
-  # Test muhiti :
+  - Minimum, maksimum və yanlış köçürmə məbləğləri
+  # Test Environments :
   - OS : Mobil( Android / İOS ), Windows 11,macOS
   - Browser: GOOGLE CHROME ,Firefox
   # Test Approach
@@ -47,14 +47,16 @@
 - Security test-Tətbiqdə istifadəçi  məlumatlarının və əməliyyatlarının  qorunması üçün aparılır
 - Compatiblity test - Fərqli cihaz , muhit  və  platformada tətbiqin düzgün işləməsini təmin etmək üçün aparılır
 - Performance test - Tətbiqin yüklənməsi zamanı işləmə qabiliyyətini yoxlamaq üçün istifadə olunur
-# Alətlər 
+# TOOLS
 - Jira / Zephyr (Bug reporting və test case idarəsi üçün )
 - Test manegement: TestRail / Qase
-# Test sənədləri:
+# Test Deliverables: 
+- Test strategiya sənədi
+- Test  plan ssənədi
 - Test caselər
 - Bug report
 - Test summary report
-- Test strategiya sənədi
+  
   # ROLLAR
   - QA Enginner
   - Developer
