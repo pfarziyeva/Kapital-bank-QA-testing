@@ -5,7 +5,7 @@
 # Məqsəd :
 ## Tətbiqin əsas fünksiyalarının  düzgün işlədiyini yoxlamaq, səhvləri  erkən aşkar etmək və istifadəçi təcrübəsinin sabitliyini təmin etməkdir.
 # Test Skope  ( İN Scope)
-  - İstifadəçi qeydiyyatı və login
+ ## - İstifadəçi qeydiyyatı və login
   - Hesab balansının yoxlanması
   - Pul köçürmələri  ( Öz hesablarım və istənilən bank kartına köçürmə )
   - Kart idarəetməsi (bloklama, limit dəyişimi)
@@ -96,7 +96,7 @@
 -  Test nəticələri sənədləşdirilib
 -   Test  Summary  Report hazırlanıb
   #  NƏTİCƏ
-  ## Bu  test  plan  bank  veb  tətbiqinin keyfiyyət  təhlukəsizlik  və  istifadəçi   tələblərinəə tam  uyğun  şəkildə  qurulmasını  təmin etmək  məqsədi  ilə  hazırlanmışdır .  Test  prosesində   əsas  yol  xəritəsi  rolunu  oynayan  vacib  dakumentasyadır.
+  ## Bu  test  plan  bank  veb  tətbiqinin keyfiyyət , təhlukəsizlik  və  istifadəçi   tələblərinəə tam  uyğun  şəkildə  qurulmasını  təmin etmək  məqsədi  ilə  hazırlanmışdır .  Test  prosesində   əsas  yol  xəritəsi  rolunu  oynayan  vacib  dakumentasyadır.
   
 
 
