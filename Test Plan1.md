@@ -17,31 +17,31 @@
   # Out of Scope
   - ## Real maliyyə əməliyyatları
   - ## Core banking  sistemi əməliyyatları( Backend serverdə maliyyə  əməliyyatları)
-  -## Üçüncü tərəf daxili sistemləri ( məsələn bankın daxili audit sistemi)
+  - ## Üçüncü tərəf daxili sistemləri ( məsələn bankın daxili audit sistemi)
  # Entry Criteria
-- ## Testin başlaya bilməsi üçün :
-- ## Test ediləcək tətbiq staging mühitində hazır olmalıdır
+ ## Testin başlaya bilməsi üçün :
+- ## Test  ediləcək  tətbiq staging mühitində hazır olmalıdır
 - ## Bütün əsas fünksiyalar tətbiqdə mövcüd olmalıdır
 - ## Test data hazırlanmalıdır ( hesablar istifadəçi məlumatları)
 - ## Test mühiti (browser, OS alətlər ) işlək vəziyyətdə olmalıdır
 - ## Test sənədləri hazır olmalıdır
   # Test Data
-  - ## Düzgün və yanlış Login məlumatları
-  - ## Test istifadəçi hesabları
+  - ## Düzgün  və  yanlış Login məlumatları
+  - ## Test  istifadəçi  hesabları
   - ## Saxta kart nömrələri
-  - ## Minimum, maksimum və yanlış köçürmə məbləğləri
+  - ## Minimum , maksimum və  yanlış   köçürmə məbləğləri
   # Test Environments :
-  - ## OS : Mobil( Android / İOS ), Windows 11,macOS
-  - ## Browser: GOOGLE CHROME ,Firefox
+  - ## OS : Mobil  ( Android / İOS ) , Windows 11,  macOS
+  - ## Browser :   GOOGLE  CHROME , Firefox
   - ## Network : Internet  bağlantısı
   # Test Approach
- - ## Testlər manual şəkildə aparılacaq
+ - ## Testlər  manual  şəkildə aparılacaq
  - ## Hər test fünksiyası üçün test case hazırlanacaq
  - ## Test nəticəsində bug varsa bug report hazırlanacaq
 - ## Kritik xətalar dərhal komanda ilə paylaşılacaq
  # Test növləri
 ## Fünctional  Testing : 
-- ## SMOKE test (Tətbiqin əsas və  kritik fünksiyasının işlək olub olmadığını  yoxlamaq  üçün  istifadə  olunur )
+- ## SMOKE  test (Tətbiqin əsas və  kritik fünksiyasının işlək olub olmadığını  yoxlamaq  üçün  istifadə  olunur )
 - ## Regression test ( Hər  hansı  bir  fünksiyadakı  dəyişiklikdən  sonra əvvəlki   fünksiyalar yenidən yoxlanılacaq)
 - ## Acceptance  Testing ( UAT) - Sitemin  biznes  tələblərinə  uyğun  olub olmadığını  yoxlamaq  məqsədi  iləı  aparılır
   ## Non Fwnction Testing :
@@ -51,26 +51,26 @@
 - ## Performance test - Tətbiqin yüklənməsi zamanı işləmə qabiliyyətini yoxlamaq üçün istifadə olunur
 # TOOLS
 - ## Jira / Zephyr (Bug reporting və test case idarəsi üçün )
-- ### Test manegement: TestRail / Qase
+- ### Test  manegement:  TestRail / Qase
 # Test Deliverables: 
-- ## Test strategiya sənədi
-- ## Test  plan ssənədi
-- ## Test caselər
-- ## Bug report
-- ## Test summary report
+- ## Test  strategiya sənədi
+- ## Test   plan   ssənədi
+- ## Test  case-lər
+- ## Bug  report
+- ## Test  summary  report
   
   # ROLLAR
-  - ## QA Enginner
+  - ## QA  Enginner
   - ## Developer
-  - ## Product Owner
-  - ## Projekt Manager
+  - ## Product  Owner
+  - ## Projekt  Manager
 # RİSKLƏR
 ## Hight Severity Risklər:
-- ## Ödəniş əməliyyatının düzgün işləməməsi:
-###  1) Ödəniş uğurlu görünür amma realda icra olunmur
-###  2) Eyni ödəniş bir neçə dəfə təkrarlanır
+- ## Ödəniş əməliyyatının  düzgün işləməməsi:
+###  1) Ödəniş  uğurlu  görünür  amma  realda  icra olunmur
+###  2) Eyni  ödəniş  bir neçə dəfə təkrarlanır
 ###  3) Balans kifayət etmədiyi halda ödəniş icra olunur
-- ##  Pul köçürməsi zamanı risklər:
+- ##  Pul  köçürməsi  zamanı  risklər:
 ###  1) Muştəri IBAN ı səhv yazır və pul başqa hesaba gedir. Bu zaman pul geri qaytarılmaya bilər
 ###  2) Pul iki dəfə köçürülə bilər
 ###  3) Pul çıxır amma qarşı tərəfə çatmır   
