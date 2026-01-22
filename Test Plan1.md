@@ -10,10 +10,10 @@
   - ## Pul köçürmələri  ( Öz hesablarım və istənilən bank kartına köçürmə )
   - ## Kart idarəetməsi (bloklama, limit dəyişimi)
   - ## Ödəniş əməliyyatları ( Kommunal, mobil , internet )
-  -## Əməliyyat tarixçəsi və bildirişlərin yoxlanması
-  -## Dil seçimi ( AZ /EN/ RU )
+  - ## Əməliyyat tarixçəsi və bildirişlərin yoxlanması
+  - ## Dil seçimi ( AZ /EN/ RU )
   - ## UI/UX - saytın ümümi dizaynı və istifadəçi üçün rahat istifadəni   təmin etmək
-  -## Logout
+  - ## Logout
   # Out of Scope
   - ## Real maliyyə əməliyyatları
   - ## Core banking  sistemi əməliyyatları( Backend serverdə maliyyə  əməliyyatları)
@@ -28,7 +28,7 @@
   # Test Data
   - ## Düzgün və yanlış Login məlumatları
   - ## Test istifadəçi hesabları
-  -## Saxta kart nömrələri
+  - ## Saxta kart nömrələri
   - ## Minimum, maksimum və yanlış köçürmə məbləğləri
   # Test Environments :
   - ## OS : Mobil( Android / İOS ), Windows 11,macOS
@@ -41,13 +41,13 @@
 - ## Kritik xətalar dərhal komanda ilə paylaşılacaq
  # Test növləri
 ## Fünctional  Testing : 
-- ## SMOKE test ( əsas funksiyalar sürətli test olunur )
-- ## Regression test (Əvvəlki testlərdə işləyən fünksiyalar yenidən yoxlanılacaq)
+- ## SMOKE test (Tətbiqin əsas və  kritik fünksiyasının işlək olub olmadığını  yoxlamaq  üçün  istifadə  olunur )
+- ## Regression test ( Hər  hansı  bir  fünksiyadakı  dəyişiklikdən  sonra əvvəlki   fünksiyalar yenidən yoxlanılacaq)
 - ## Acceptance  Testing ( UAT) - Sitemin  biznes  tələblərinə  uyğun  olub olmadığını  yoxlamaq  məqsədi  iləı  aparılır
   ## Non Fwnction Testing :
-- ## Uİ/UX Test - İstifadəçinin saytda gördüyü elementlərin düzgün olması və istifadə rahatlığının təmin edilməsi
-- ## Security test-Tətbiqdə istifadəçi  məlumatlarının və əməliyyatlarının  qorunması üçün aparılır
-- ## Compatiblity test - Fərqli cihaz , muhit  və  platformada tətbiqin düzgün işləməsini təmin etmək üçün aparılır
+- ## Uİ/UX Test - İstifadəçinin saytda gördüyü elementlərin düzgün olması və istifadə rahatlığının təmin edilməsi  üçün  həyata  keçirilir.
+- ## Security test - Tətbiqdə istifadəçi  məlumatlarının və əməliyyatlarının  qorunması üçün aparılır.
+- ## Compatiblity test - Fərqli cihaz , mühit  və  platformada tətbiqin düzgün işləməsini təmin etmək üçün aparılır
 - ## Performance test - Tətbiqin yüklənməsi zamanı işləmə qabiliyyətini yoxlamaq üçün istifadə olunur
 # TOOLS
 - ## Jira / Zephyr (Bug reporting və test case idarəsi üçün )
@@ -83,18 +83,18 @@
 ### -  Şifrə  bərpası və autentifikasiya prosesində boşluqlar (Müştəri hesabına icazəsiz giriş, məlumatların sızması)
   
 ## Medium severity risklər:
-- Hesab çıxarışının yavaş yüklənməsi
-- müəyyən brauzerlərdə səhifə formatının pozulması
+- ### Hesab çıxarışının yavaş yüklənməsi
+- ### Müəyyən brauzerlərdə səhifə formatının pozulması
 ## Low severity risklər:
-- UI elementlərinin kiçik dizayn problemi
-- Yazıların doğru olmaması
+- ### UI elementlərinin kiçik dizayn problemi
+- ### Yazıların doğru olmaması
 #  Exit Criteria :
 ## Test prosesinin tamamlanması üçün :
-- Bütün  critical və high severity buglar fix olunub
-- Test  caselərin  95% -i uğurlu keçib
-- Bütün kritik fünksiyalar işləkdir
--  Test nəticələri sənədləşdirilib
--   Test  Summary  Report hazırlanıb
+- ### Bütün  critical və high severity buglar fix olunub
+- ### Test  caselərin  95% -i uğurlu keçib
+- ### Bütün kritik fünksiyalar işləkdir
+- ### Test nəticələri sənədləşdirilib
+-  ### Test  Summary  Report hazırlanıb
   #  NƏTİCƏ
   ## Bu  test  plan  bank  veb  tətbiqinin keyfiyyət , təhlukəsizlik  və  istifadəçi   tələblərinəə tam  uyğun  şəkildə  qurulmasını  təmin etmək  məqsədi  ilə  hazırlanmışdır .  Test  prosesində   əsas  yol  xəritəsi  rolunu  oynayan  vacib  dakumentasyadır.
   
