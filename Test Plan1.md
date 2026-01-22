@@ -2,7 +2,7 @@
 ## Hazırlayan:  Pərvin Hümmətova
 ## Test Növü: MANUAL TESTİNG
 ## Testin başlama və bitmə tarixi: 18/01/2026 - 21/01/2026
-# Məqsəd :
+# Objective :
 ## Tətbiqin əsas fünksiyalarının  düzgün işlədiyini yoxlamaq, səhvləri  erkən aşkar etmək və istifadəçi təcrübəsinin sabitliyini təmin etməkdir.
 # Test Skope  ( İN Scope)
   - ## İstifadəçi qeydiyyatı və login
