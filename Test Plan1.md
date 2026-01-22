@@ -5,7 +5,7 @@
 # Məqsəd :
 ## Tətbiqin əsas fünksiyalarının  düzgün işlədiyini yoxlamaq, səhvləri  erkən aşkar etmək və istifadəçi təcrübəsinin sabitliyini təmin etməkdir.
 # Test Skope  ( İN Scope)
- ## - İstifadəçi qeydiyyatı və login
+  - ## İstifadəçi qeydiyyatı və login
   - Hesab balansının yoxlanması
   - Pul köçürmələri  ( Öz hesablarım və istənilən bank kartına köçürmə )
   - Kart idarəetməsi (bloklama, limit dəyişimi)
