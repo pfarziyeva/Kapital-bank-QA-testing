@@ -1,6 +1,6 @@
 ## Project name :   Kapital Bank veb tətbiqi
 ## Hazırlayan:  Pərvin Hümmətova
-## Test Növü: MANUAL TESTİNG
+## Test Type: MANUAL TESTİNG
 ## Testin başlama və bitmə tarixi: 18/01/2026 - 21/01/2026
 # Objective :
 ## Tətbiqin əsas fünksiyalarının  düzgün işlədiyini yoxlamaq, səhvləri  erkən aşkar etmək və istifadəçi təcrübəsinin sabitliyini təmin etməkdir.
@@ -39,7 +39,7 @@
  - ## Hər test fünksiyası üçün test case hazırlanacaq
  - ## Test nəticəsində bug varsa bug report hazırlanacaq
 - ## Kritik xətalar dərhal komanda ilə paylaşılacaq
- # Test növləri
+ # Test   Types
 ## Fünctional  Testing : 
 - ## SMOKE  test (Tətbiqin əsas və  kritik fünksiyasının işlək olub olmadığını  yoxlamaq  üçün  istifadə  olunur )
 - ## Regression test ( Hər  hansı  bir  fünksiyadakı  dəyişiklikdən  sonra əvvəlki   fünksiyalar yenidən yoxlanılacaq)
