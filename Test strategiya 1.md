@@ -8,7 +8,10 @@
  ## TEST SKOPE ( In Scope)
  - ### Istifadəçi giriş və çıxışı (LOGİN /LOGOUT )
  - ### Hesab balansının görüntülənməsi - Cari balansdakı məbləğin düzgün göstərilməsi
- - ### Pul köçürmələri (Öz hesabları arasında və digər şəxslərə pul köçürmə)
+ - ### Pul köçürmələri
+ - Kartddan karta  transfer ( Eyni  bank  daxilində  ödənişlər  və  muxtəlif  banklararası  ödənişlər  )
+ - Hesabdan   hesaba  transfer  ( Fərdi  hesablar  arasında   )
+ - Ödəniş  məbləği  yoxlaması  (Mənfi  və  sıfır  məbləğin  qəbul  edilməməsi)
  -### Kartların idarə olunması (bloklama, limit dəyişmə)
  - ### Bildirişlər və əməliyyat tarixçəsi
  - ### Ödənişlər (kommunal, mobil ,internet ödənişlər)
@@ -16,6 +19,7 @@
 - ### Production -  da   real  pul əməliyyatları.  Real ödəniş  və köçürmələr test olunmur
 - ### Backend optimizasiya və server performansı.  Testçi  serverin  sürətini  və optimizasiyasını  yoxlamır
   ##  TEST  Approach
+  - ### Test  staging  mühitdə  manual şəkildə   həyata  keçiriləcək. Fünksional  və  Non  functional  test   növlərindənn istifadə  etməklə  saytın bütün fünksiyalarının  düzgün  işləməsini  və    eyni  zamanda  istifadəçi  tələblərinə  uyğunluğunu təmin   etmək  məqsədi ilə bank  veb  tətbiqi  test  olunacaq. 
   -
  ## TEST  Types :
    ## Functional   Testing -  Saytın  bütün  əsas   fünksiyalarının  düzgün  işləməsini  təmin etmək  üçün  həyata  keçirilir.
