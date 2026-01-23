@@ -64,30 +64,23 @@
   - ## Developer
   - ## Product  Owner
   - ## Projekt  Manager
-# RİSKLƏR
-## Hight Severity Risklər:
+# RİSKLƏR :
 - ## Ödəniş əməliyyatının  düzgün işləməməsi:
 ###  1) Ödəniş  uğurlu  görünür  amma  realda  icra olunmur
 ###  2) Eyni  ödəniş  bir neçə dəfə təkrarlanır
 ###  3) Balans kifayət etmədiyi halda ödəniş icra olunur
 - ##  Pul  köçürməsi  zamanı  risklər:
-###  1) Muştəri IBAN ı səhv yazır və pul başqa hesaba gedir. Bu zaman pul geri qaytarılmaya bilər
+###  1) Muştəri IBAN - ı səhv yazır və pul başqa hesaba gedir. Bu zaman pul geri qaytarılmaya bilər
 ###  2) Pul iki dəfə köçürülə bilər
 ###  3) Pul çıxır amma qarşı tərəfə çatmır   
 - ## Avtorizasiya və acces control zəifliyi ( istifadəçi başqasının hesabına daxil ola bilər)
   
  ###  İstifadəçinin icazəsi olmayan hesablar  üzərində əməliyyat apara bilməsi
   
-  ### URI və API parametrlərinin dəyişdirilməsi ilə icazəsiz məlumat əldə edilməsi
+  ### URL və API parametrlərinin dəyişdirilməsi ilə icazəsiz məlumat əldə edilməsi
   
 ### -  Şifrə  bərpası və autentifikasiya prosesində boşluqlar (Müştəri hesabına icazəsiz giriş, məlumatların sızması)
   
-## Medium severity risklər:
-- ### Hesab çıxarışının yavaş yüklənməsi
-- ### Müəyyən brauzerlərdə səhifə formatının pozulması
-## Low severity risklər:
-- ### UI elementlərinin kiçik dizayn problemi
-- ### Yazıların doğru olmaması
 #  Exit Criteria :
 ## Test prosesinin tamamlanması üçün :
 - ### Bütün  critical və high severity buglar fix olunub
