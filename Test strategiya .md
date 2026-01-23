@@ -1,5 +1,5 @@
 
-## Projekt name
+## Projekt name :
 ### Kapital Bank veb tətbiqi 
   ## Hazırlayan : Pərvin  Hümmətova
  ## MƏQSƏD
