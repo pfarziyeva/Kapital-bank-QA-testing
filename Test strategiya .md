@@ -2,7 +2,7 @@
 ## Projekt name :
 ### Kapital Bank veb tətbiqi 
   ## Hazırlayan : Pərvin  Hümmətova
- ## MƏQSƏD
+ ## Objectives :
  - ### Kapital  Bank veb tətbiqinin istifadəçi tələblərinə uyğun işlədiyini yoxlamaq 
  - ### Kritik  bank  əməliyyatlarında xətaların qarşısını almaq
 - ### istifadəçi məlumatlarının təhlukəsizliyini  təmin etməkdir.
@@ -20,7 +20,7 @@
 - ### Production -  da   real  pul əməliyyatları.  Real ödəniş  və köçürmələr test olunmur
 - ### Backend optimizasiya və server performansı.  Testçi  serverin  sürətini  və optimizasiyasını  yoxlamır
   ##  TEST  Approach
-  - ### Test  staging  mühitdə  manual şəkildə   həyata  keçiriləcək. Fünksional  və  Non  functional  test   növlərindənn istifadə  etməklə  saytın bütün fünksiyalarının  düzgün  işləməsini  və    eyni  zamanda  istifadəçi  tələblərinə  uyğunluğunu təmin   etmək  məqsədi ilə bank  veb  tətbiqi  test  olunacaq. 
+- ### Test  staging  mühitdə  manual şəkildə   həyata  keçiriləcək. Fünksional  və  Non  functional  test   növlərindənn istifadə  etməklə  saytın bütün  fünksiyalarının  düzgün  işləməsini  və    eyni  zamanda  istifadəçi  tələblərinə  uyğunluğunu təmin   etmək  məqsədi ilə bank  veb  tətbiqi  test  olunacaq. 
   -
  ## TEST  Types :
    ## Functional   Testing -  Saytın  bütün  əsas   fünksiyalarının  düzgün  işləməsini  təmin etmək  üçün  həyata  keçirilir.
@@ -35,14 +35,14 @@
   - ### Usibility  test - İstifadəçi  saytda  müəyyən  əməliyyatları  icra   edərkənn çətinlik  çəkməməsi  üçün həyata keçirilir.Məsələn  buttonları  rahat  tapa
     bilsin , forma dolduran  zaman   mərhələlər  aydın  və   qısa olsun və.s
     ## Test  Data  :
-    - ### Pozitiv  test data  -  doğru  login məlumatları ,   kifayət  qədər  balans ,   düzgün  kart/ IBAN
-    - ### Negative  test   data  - Səhv  parol ,   kifayət  qədər  balans  yoxdur   və  yanlış  IBAN
-    - ###  Sərhəd  Test  data -  minimum / maksimum  məbləğ  və  günlük  limitin  tam  həddi
-    ## Entry  Criteria
-    - ### Requirements  təstiqlənib
-    - ### Test plan   və  Test strategiya  hazırdır
-    - ### Staging yəni  test  mühiti  qurulub  və  işləkdir
-    -  ### Test   data  mövcüddür
+  - ### Pozitiv  test data  -  doğru  login məlumatları ,   kifayət  qədər  balans ,   düzgün  kart/ IBAN
+  - ### Negative  test   data  - Səhv  parol ,   kifayət  qədər  balans  yoxdur   və  yanlış  IBAN
+  - ###  Sərhəd  Test  data -  minimum / maksimum  məbləğ  və  günlük  limitin  tam  həddi
+   ## Entry  Criteria
+  - ### Requirements  təstiqlənib
+  - ### Test plan   və  Test strategiya  hazırdır
+  - ### Staging yəni  test  mühiti  qurulub  və  işləkdir
+  -  ### Test   data  mövcüddür
  ## TEST ENVİRONMENT
  - ### Environment : Staging 
  - ### OS : Windows 11 ,Android/Ios 
@@ -58,11 +58,11 @@
  - ### Developer
  - ### QA Engineer
  ##  TEST  SƏNƏDLƏRİ
-### - Test Case - Hər hansı  bir  fünksiyanın  adddım -addım yoxlanışını  təmin edir
-### - Checklist -  Ümümi   yoxlanış  siyahısıdır
-### - Bug report- Tapılmış  bugın sənədləşdirilməsi
-### - Test plan sənədi
-### -  Test summary report - Test  sonunda  
+ - ### Test Case - Hər hansı  bir  fünksiyanın  adddım -addım yoxlanışını  təmin edir
+ - ### Checklist -  Ümümi   yoxlanış  siyahısıdır
+ - ###  Bug report- Tapılmış  bugın sənədləşdirilməsi
+ - ###  Test plan sənədi
+ - ###   Test summary report - Test  sonunda  
  ## RISKLƏR
 ## 1) LOGIN funksiyası ilə bağlı risk
   ### - Istifadəçi düzgün məlumat daxil etsə də sistemə daxil ola bilməməsi
@@ -83,10 +83,10 @@
 ## 6 ) Təhlukəsizlik boşluqları
 - ### Məsələn səhv şifrəni çox yazanda hesab bloklanmaması  Hacker hucumlarına şərait yaradır
   ##  Exit Criteria
-  - ### Critical  və  high  severity  bug-lar  bağlanıb   və retest  olunub
-  -  ### Test  case-lərin  ən az   95 % -i   icra  olunub
-  -  ###  Planlaşdırılan    testlər    tamamlanıb və  test   nəticələri  sənədləşdirilib
-  -  ### Test  Summary  Report  hazırlanıb
+   ### - Critical  və  high  severity  bug-lar  bağlanıb   və retest  olunub
+   ### - Test  case-lərin  ən az   95 % -i   icra  olunub
+   ### - Planlaşdırılan    testlər    tamamlanıb və  test   nəticələri  sənədləşdirilib
+   ### - Test  Summary  Report  hazırlanıb
 
 
 
