@@ -52,6 +52,8 @@
 # TOOLS
 - ## Jira / Zephyr (Bug reporting və test case idarəsi üçün )
 - ### Test  manegement:  TestRail / Qase
+- ### Postman -API   yoxlanışı
+- ### JMeter - performance  testing
 # Test Deliverables: 
 - ## Test  strategiya sənədi
 - ## Test   plan   ssənədi
