@@ -1,7 +1,7 @@
 # Kapital Bank  Veb  Tətbiqi - TEST  CHECKLİST
  ## LOGİN / Autentifikasiya
 - ###  Duzgün  istifadəçi  adı  və  parol  ilə  tətbiqə   giriş  mümkündür
--  ### Yanlış  şifrə  daxil  edildikdə  xəta  mesajı  gğrünür
+-  ### Yanlış  şifrə  daxil  edildikdə  xəta  mesajı  görünür
 - ###  Login  sahələri  boş  olduqda   girişə  icazə  verilmir
 - ###  Şifrəni  unutdum linki  düzgün  işləyir
 -  ### Login  sətrində  şifrə  maskalanır
@@ -36,25 +36,25 @@
 - ### Əməliyyatlar  tarixə  və növə  görə  sıralanır
 - ### Fitrləmə  tarix,  növ  və  məbləğə  görə  düzgün  işləyir
 - ### Bütün  əməliyyat   detalları   tam  göstərilir  ( məbləğ , tarix , status , alıcı )
-  ## UI / UX testing
-  - ### Butun   düymələr  klik  olunur
-  - ### UI  elementləri  ust-üstə  düşmür
-  - ### Mətnlər  oxunaqlıdır
-  - ### Xəta  mesajları  aydındır
-    ## SECURİTY testing
-    - ### HTTPS   protokolu  istifadə  olunur
-    - ### URL   dəyişdirilərək   başqa  hesaba  giriş  mümükn  deyil
-    -  ### Şəxsi  məlumatlar  açıq  görünmür
-    - ### Kart  məlumatları  açıq olduqda  screenshots   mümkün  deyi
-    - ### Login  sonrası  Back  düyməsi  ilə  geri  qayıtmaq  olmu
-      ## Performance Testing
+ ## UI / UX testing
+ - ### Butun   düymələr  klik  olunur
+ - ### UI  elementləri  ust-üstə  düşmür
+ - ### Mətnlər  oxunaqlıdır
+ - ### Xəta  mesajları  aydındır
+ ## SECURİTY testing
+ - ### HTTPS   protokolu  istifadə  olunur
+ - ### URL   dəyişdirilərək   başqa  hesaba  giriş  mümükn  deyil
+ -  ### Şəxsi  məlumatlar  açıq  görünmür
+ - ### Kart  məlumatları  açıq olduqda  screenshots   mümkün  deyi
+ - ### Login  sonrası  Back  düyməsi  ilə  geri  qayıtmaq  olmur
+  ## Performance Testing
  - ### Səhifələr  3 saniyədən  gec  yüklənmir
  - ### Yüklənmə  zamanı  sistem  donmur
  - ### Pul  köçürməsi  zamanı  gecikmə  yoxdur
-   ## Compatiblity  testing
-   - ### Tətbiq  fərqli   cihazlarda
-   -  ### Fərqli  əməliyyat  sistemlərində
-   - ###  fərqli brauzerlərdə stabil  işləməlidir
+## Compatiblity  testing
+ - ### Tətbiq  fərqli   cihazlarda
+ -  ### Fərqli  əməliyyat  sistemlərində
+ - ###  fərqli brauzerlərdə stabil  işləməlidir
 
 
 
