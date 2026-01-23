@@ -35,7 +35,9 @@
   - ### Usibility  test - İstifadəçi  saytda  müəyyən  əməliyyatları  icra   edərkənn çətinlik  çəkməməsi  üçün həyata keçirilir.Məsələn  buttonları  rahat  tapa
     bilsin , forma dolduran  zaman   mərhələlər  aydın  və   qısa olsun və.s
     ## Test  Data  :
-    - ### 
+    - ### Pozitiv  test data  -  doğru  login məlumatları ,   kifayət  qədər  balans ,   düzgün  kart/ IBAN
+    - ### Negative  test   data  - Səhv  parol ,   kifayət  qədər  balans  yoxdur   və  yanlış  IBAN
+    - ###  Sərhəd  Test  data -  minimum / maksimum  məbləğ  və  günlük  limitin  tam  həddi
     ## Entry  Criteria
     - ### Requirements  təstiqlənib
     - ### Test plan   və  Test strategiya  hazırdır
