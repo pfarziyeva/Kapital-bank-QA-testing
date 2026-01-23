@@ -10,9 +10,9 @@
  - ### Istifadəçi giriş və çıxışı (LOGİN /LOGOUT )
  - ### Hesab balansının görüntülənməsi - Cari balansdakı məbləğin düzgün göstərilməsi
  - ### Pul köçürmələri
- - Kartddan karta  transfer ( Eyni  bank  daxilində  ödənişlər  və  muxtəlif  banklararası  ödənişlər  )
- - Hesabdan   hesaba  transfer  ( Fərdi  hesablar  arasında   )
- - Ödəniş  məbləği  yoxlaması  (Mənfi  və  sıfır  məbləğin  qəbul  edilməməsi)
+  ### - Kartddan karta  transfer ( Eyni  bank  daxilində  ödənişlər  və  muxtəlif  banklararası  ödənişlər  )
+### - Hesabdan   hesaba  transfer  ( Fərdi  hesablar  arasında   )
+### - Ödəniş  məbləği  yoxlaması  (Mənfi  və  sıfır  məbləğin  qəbul  edilməməsi)
  - ### Kartların idarə olunması (bloklama, limit dəyişmə)
  - ### Bildirişlər və əməliyyat tarixçəsi
  - ### Ödənişlər (kommunal, mobil ,internet ödənişlər)
