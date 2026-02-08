@@ -28,6 +28,7 @@
   - ### Məbləğ   sıfır  olduqda köçürməyə  icazə  vüerilmir
   -  ### Mənfi və  simvol daxil edilmiş   məbləğ  qəbul  edilmir
   -  ### Cari  balans  kifayət  qədər  olmadıqda  xəbərdarlıq  gəlir
+  -  ### Pul köçürülməsidə  kartın skan edilməsi zamanı  kart  nömrəsi düzgün şəkildə daxil olur
   -  ### Pul  köçürməsi  zamanı  təstiq  mesajı  (OTP / SMS )  gəlir
   -  ### Köçürmə  uğurlu  olduqda  bildiriş  mesajı  gəlir
     
