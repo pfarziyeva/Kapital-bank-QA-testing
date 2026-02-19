@@ -4,6 +4,9 @@
 -  ### Yanlış  şifrə  daxil  edildikdə  xəta  mesajı  görünür
 - ###  Login  sahələri  boş  olduqda   girişə  icazə  verilmir
 - ###  Şifrəni  unutdum linki  düzgün  işləyir
+- ### Ç+Şifrə  qısa olduqda yəni  minimum  8 simvol limitindən  az olduqda error  mesajı çıxır
+- ### Şifrə  çox uzun olduqda error  mesajı  və ya limit  tətbiq  olunur
+- ### Şifrədə  böyük  və  kiçik  hərflərin eyni  zamanda  xüsüsi   simvolların    istifadəsinə  icazə  verilir
 -  ### Login  sətrində  şifrə  maskalanır
 -  ### Bir neçə  səhv  cəhddən  sonra  heasb  bloklanır
 ##  HOME  PAGE
