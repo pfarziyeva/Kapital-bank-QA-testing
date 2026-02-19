@@ -10,9 +10,15 @@
 -  ### Login  sətrində  şifrə  maskalanır
 -  ### Bir neçə  səhv  cəhddən  sonra  heasb  bloklanır
 ##  HOME  PAGE
+- ### Home  page düzgün  açılır və  page  title  düzgün   göstərilir
+- ### Baş menyu elementləri  görünür menyu  uzərində hover kliklər düzgün  işləyir
+- ### Hər  bir menyu  düzgün  səhifəyə  yönləndirir
 - ### Reklam  bannerləri  və  əməliyyatların  icra  butonları  düzgün işləyir
+- ### Bannerlər  kilkləndikdə  düzgün  səhifəyə  keçid olur
 - ### Kart  hesabları  ana səhifədə  görünür
 - ### ƏDV , Keşbek, Bonus  əməliyyatları  ana səhifədə   görünür
+- ### Butun keşbek, ƏDV balansları  düzgün  göstərilir
+- ### ƏDV  və Keşbek  məbləğləri  düzgün  hesablanır
  ## İstifadəçi   Profili
 - ### Profil  məlumatları ( ad,  soyad,email və  telefon  nömrəsi )  düzgün  göstərilir 
 - ### Tətbiqə giriş  üçün  barmaq  izi  və Passcode seçimi  aktivdir
@@ -26,13 +32,17 @@
 - ### Valyuta    düzgün  göstərilir ( AZN / USD /EUR )
 ##  Pul  Köçürmələri
   - ### Mənim  kart  hesablarım  arasında  kğçürmə  mümkündür
-  - ### İstənilən  bank  kartına  kğçürmə  mümkündür
+  - ### İstənilən  bank  kartına  köçürmə  mümkündür
   - ### Dosta  köçürmə  və  dostlardan  pul  sorğusu  əməliyyatları  işləyir
-  - ### Məbləğ   sıfır  olduqda köçürməyə  icazə  vüerilmir
-  -  ### Mənfi və  simvol daxil edilmiş   məbləğ  qəbul  edilmir
-  -  ### Cari  balans  kifayət  qədər  olmadıqda  xəbərdarlıq  gəlir
-  -  ### Pul köçürülməsidə  kartın skan edilməsi zamanı  kart  nömrəsi düzgün şəkildə daxil olur
+  - ### Məbləğ   sıfır  olduqda köçürməyə  icazə  verilmir
+  -  ### Mənfi və  simvol daxil edilmiş   məbləğ  qəbul  edilmir və " Məbləğ  düzgün  deyil" xəbərdarlıq  mesajı gəlir
+  -  ### Cari  balansdan  kifayət   yüksək   məbləğ  daxil  edildikdə "Balansınız  kifayət  deyil" xəbərdarlıq mesajı  gəlir
+  -  ### Köçürmə  məbləği  minimum limitdən aşağı olduqda "Minimüm  köçürme məbləği X AZN-dır" və  maksimum limitdən yüxarı  olduqda"maksimüm köçürmə məbləği Y AZN-dir" xəbərdarlıq  mesajı  gəlir 
+  -  ### Pul köçürülməsidə  kart nömrəsinin skan edilməsi zamanı  kart  nömrəsi düzgün şəkildə daxil olur
   -  ### Pul  köçürməsi  zamanı  təstiq  mesajı  (OTP / SMS )  gəlir
+  -  ### OTP düzgün daxil  ediləndə əməliyyat uğurlu  olur
+  -  ### Səhv  OTP  daxil  edildikdə "Xahiş  olunur  düzgün  OTP daxil  edin" mesajı göstərilir
+  -  ### OTP  müddəti bitdikdə - "OTP  vaxtı  bitdi ,yenidən göndərin " mesajı  göstərilir
   -  ### Köçürmə  uğurlu  olduqda  bildiriş  mesajı  gəlir
     
  ##   Əməliyyat  tarixçəsi testi
@@ -56,9 +66,10 @@
  - ### Yüklənmə  zamanı  sistem  donmur
  - ### Pul  köçürməsi  zamanı  gecikmə  yoxdur
 ## Compatiblity  testing
- - ### Tətbiq  fərqli   cihazlarda
- -  ### Fərqli  əməliyyat  sistemlərində
- - ###  fərqli brauzerlərdə stabil  işləməlidir
+ - ### Tətbiqin  bütün fünksiyaları  fərqli   cihazlarda- Desktop,tablet,mobilde düzgün  işləyir
+ -  ### Fərqli  əməliyyat  sistemlərində - Windows , MacOS, Android, IOS  əməliyyat  sistemlərində  düzgün  işləyir
+ - ###  Fərqli brauzerlərdə -  Chrome, Firefox, Edge ,Opera, Safaride stabil  işləyir
+
 
 
 
