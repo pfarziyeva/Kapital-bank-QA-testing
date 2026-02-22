@@ -16,5 +16,21 @@
 ## Test case ID: TC_002
 ## Title: Invalid məlumatlarla Login funksiyasının yoxlanışı
 ## Precondition:Qeydiyyatdan keçmiş istifadəçi mövcüddür
-
+## Steps :
+## 1) Login  səhifəsini  aç
+## 2)Email  sahəsinə  invalid  email  daxil  et
+## 3) password  sahəsinə  invalid  password daxil et
+## 4) Login  duyməsinə  click et
+## Expected  Result :
+"Şifrə"
+## Test Case 3
+## Test Case ID : TC_003
+## TITLE:Uğurlu  pul  köçurmə  əməliyyatı
+## Precondition : Istifadəçi login  olmalıdır  və hesabda kifayət qədər  balans olmalıdır
+## Steps :
+## 1)
+## 2)
+## 3)
+## 4)
+## 5)
 
