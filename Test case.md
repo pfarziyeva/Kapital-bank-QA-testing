@@ -5,11 +5,11 @@
 
 |steps|   Action               |    Data              |    Expected Result                                   |    Actual REsult     |
 |-----|------------------------|----------------------|------------------------------------------------------|----------------------|
-|1    |  Saytı aç              |                      |  Kapital bank veb saytı açılır                       |    Sayt açılır       |                      
-|2    |Login səhifəsini aç     |                      |  Səhifə açılır                                       |
-|3    |Valid  email daxil et   | pervinferzi@gmail.com| məlumat email sahəsində görünür                      |                      |
-|4    |Valid password daxil et | H1234%miko           |  password şifrə sahəsində görünür                    |                                
-|5    |Login düyməsinə click et|                      | Istifadəçi girişi uğurlu olur.Profil səhifəsi açılır |                      |
+|1    |Kapital bank veb Saytını aç|                   |Kapital bank veb saytı açılır                         |  Sayt açılır         |                      
+|2    |Login səhifəsini aç     |                      |  Səhifə açılmalıdır                                  |Login səhifəsi açılır |
+|3    | Email sahəsinə Valid  email daxil et   | pervinferzi@gmail.com| məlumat email sahəsində görünməlidir                 | Email düzgün xanada görünür|
+|4    | Password sahəsinə Valid password daxil et | H1234%miko           |  password şifrə sahəsində görünməlidir               | password düzgün xanada görünür 
+|5    |Login düyməsinə click et|                      | Istifadəçi girişi uğurlu olmalı.Profil səhifəsi açılımalıdır | Giriş uğurlu oldu və profil səhifəsi açıldı |
 
 
 
@@ -19,15 +19,24 @@
 ## Precondition:Qeydiyyatdan keçmiş istifadəçi mövcüddür
 | Steps| ACTION                                  |    DATA                 |   EXPECTED  RESULT               |  ACTUAL  RESULT        |
 |------|-----------------------------------------|-------------------------|----------------------------------|------------------------|
-|1     |  Login səfifəsini aç                    |                         | login səhifəsi açıldı            |                        |
-|2     | Email sahəsinə  invalid email  daxil et |  perH1234@gmail.com     |məlumat email sahəsində görünür   |                        |
-|3     | Password sahəsinə invalid şifrə daxil et|  M1237#qa               |şifrə password xanasında görünür  |                        |
-|4     |Login düyməsinə click et                 |                         |                                  |                        |
-                  
+|1     |  Login səfifəsini aç                    |                         | login səhifəsi açılmalıdır           | login səhifəsi açıldı |
+|2     | Email sahəsinə  invalid email  daxil et |  perH1234@gmail.com     |məlumat email sahəsində görünməlidir   |  email düzgün xanada görünür |
+|3     | Password sahəsinə invalid şifrə daxil et|  M1237#qa               |şifrə password xanasında görünməlidir  |password düzgün xanada görünür  |
+|4     |Login düyməsinə click et                 |                         |İstifadəçi sistemə daxil olmamalıdır   |"Daxil etdiyiniz Email və ya şifrə yanlışdır" xəta mesajı gəlir|
+
+## TEST CASE 3
+## TEST CASE ID : TC_003
+## TITLE : Boş email və şifrə ilə Login funksiyasının yoxlanışı
+## Precendition : Login səhifəsi açıqdır
+|STEPS|   ACTION                   | DATA  |   EXPECTED  RESULT                             |  ACTUAL  RESULT                            |
+|-----|----------------------------|-------|------------------------------------------------|--------------------------------------------|
+|1    |Email sahəsini boş saxla    |       |Email xanasında heçnə yazılmamalıdır            |Email sahəsi boşdur                         |
+|2    |Password  sahəsini boş saxla|       |Şifrə sahəsi boş olmalıdır                      |Password sahəsi boşdur                      |
+|3    |"login " düyməsini clicklə  |       |Xəta mesajı çıxmalıdır və login baş verməməlidir| "Please fill out this field" mesajı gəlir  |
 
 
-## Test Case 3
-## Test Case ID : TC_003
+## Test Case 4
+## Test Case ID : TC_004
 ## TITLE:Uğurlu  pul  köçurmə  əməliyyatı
 ## Precondition : Istifadəçi login  olmuşdur və hesabda kifayət qədər  balans var
 
@@ -40,8 +49,8 @@
 |5     | "Köçür" düyməsinə click et  |                    |əməliyyatın icrası başlamalıdır                                         | Prosses başlayır            |
 |6     |Əməliyyatı təstiqlə          |                    | Pul uğurla köçürülür "Əməliyyat uğurla tamamlandı" mesajı göstərilməlidir|Köçürmə uğurla tamamlandı və təstiq mesajı gəldi     
                                                                            
-## TEST CASE 4
-## TEST CASE ID: TC_004
+## TEST CASE 5
+## TEST CASE ID: TC_005
 ## TITLE : Balansdan artıq məbləğin köçürülməsi
 ## PRECONDITION :İstifadəçi login olmuşdur və  hesab balansı köçürülən məbləğdən azdır(Balans 500 AZN)
 
@@ -52,3 +61,11 @@
 |3    |Kart nömrəsini daxil et          |1997 2026 2021 1992| Nömrə uyğün xanada görünməlidir   |Kart nömrəsi düzgün xanada görünür             |
 |4    |balansdan yuksək məbləğ daxil et |800 AZN            |məbləğ uyğun xanada görünməlidir   |Məbləğ düzgün xanada görünür                   |
 |5    |Köçür düyməsinə click et         |                   |Xəbərdarlıq mesajı gəlməlidir      | Balans kifayət deyil xəbərdarlıq mesajı gəlir |
+
+
+
+
+
+
+                  
+
