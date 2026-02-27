@@ -64,8 +64,32 @@
 
 
 
+                      
+## TEST CASE 6
+## TEST CASE ID: TC_006
+## TITLE : Mənfi və sıfır məbləğ ilə pul transferi
+## PRECONDITION :İstifadəçi veb tətbiqdə login olmuşdur 
+
+|STEPS| ACTION                            |DATA               | EXPECTED RESULT                   | ACTUAL RESULT                                 |
+|-----|-----------------------------------|-------------------|-----------------------------------|-----------------------------------------------|
+|1    |Kapital bank tətbiqini aç          |                   | Tətbiq açılmalıdır                |Tətbiq açılır və home page görünür             |
+|2    |Pul köçürmə səhifəsinə keç         |                   | Köçürmə səhifəsinə daxil olmalıdır| Pul köçürmə səhifəsi açılır                   |
+|3    |Kart nömrəsini daxil et            |1997 2026 2021 1992| Nömrə uyğün xanada görünməlidir   |Kart nömrəsi düzgün xanada görünür             |
+|4    |Məbləğ sahəsinə köçürmə məbləği yaz|     0 AZN         |Xəbərdarlıq mesajı çıxmalıdır      |"Minimal dəyər 1.00 AZN olmalıdır" mesajı çıxır|
+|5    |Məbləğ sahəsinə mənfi ədəd yaz     |  -50 AZN          |Mənfi dəyər qəbul olunmamalıdır    |Sistem mənfi dəyəri qəbul etmir                |
 
 
+          
+## TEST CASE 7
+## TEST CASE ID: TC_007
+## TITLE : Yanlış kart  nömrəsi ilə transfer
+## PRECONDITION :İstifadəçi veb tətbiqdə login olmuşdur 
 
-                  
+|STEPS| ACTION                            |DATA               | EXPECTED RESULT                   | ACTUAL RESULT                                 |
+|-----|-----------------------------------|-------------------|-----------------------------------|-----------------------------------------------|
+|1    |Kapital bank tətbiqini aç          |                   | Tətbiq açılmalıdır                |Tətbiq açılır və home page görünür             |
+|2    |Pul köçürmə səhifəsinə keç         |                   | Köçürmə səhifəsinə daxil olmalıdır| Pul köçürmə səhifəsi açılır                   |
+|3    |Kart nömrəsini daxil et            |1997 2026 2021 1992| Nömrə uyğün xanada görünməlidir   |Kart nömrəsi düzgün xanada görünür             |
+|4    |Məbləğ sahəsinə köçürmə məbləği yaz|     100 AZN       |Xəbərdarlıq mesajı çıxmalıdır      |"Minimal dəyər 1.00 AZN olmalıdır" mesajı çıxır|
+|5    |"Göndər" düyməsinə click et        |                   |Xəbərdarlıq mesajı çıxmalıdır      |"Kart nömrəsi yanlışdır" mesajı çıxır          |   
 
