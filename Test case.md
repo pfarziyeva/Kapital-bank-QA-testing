@@ -5,11 +5,11 @@
 
 |steps|   Action               |    Data              |    Expected Result                                   |    Actual REsult     |
 |-----|------------------------|----------------------|------------------------------------------------------|----------------------|
-|1    |Kapital bank veb Saytını aç|                   |Kapital bank veb saytı açılır                         |  Sayt açılır         |                      
+|1    |Kapital bank veb saytını aç|                   |Kapital bank veb saytı açılır                         |  Sayt açılır         |                      
 |2    |Login səhifəsini aç     |                      |  Səhifə açılmalıdır                                  |Login səhifəsi açılır |
-|3    | Email sahəsinə Valid  email daxil et   | pervinferzi@gmail.com| məlumat email sahəsində görünməlidir                 | Email düzgün xanada görünür|
+|3    | Email sahəsinə valid  email daxil et   | pervinferzi@gmail.com| məlumat email sahəsində görünməlidir                 | Email düzgün xanada görünür|
 |4    | Password sahəsinə Valid password daxil et | H1234%miko           |  password şifrə sahəsində görünməlidir               | password düzgün xanada görünür 
-|5    |Login düyməsinə click et|                      | Istifadəçi girişi uğurlu olmalı.Profil səhifəsi açılımalıdır | Giriş uğurlu oldu və profil səhifəsi açıldı |
+|5    |Login düyməsinə click et|                      | Istifadəçi girişi uğurlu olmalı,profil səhifəsi açılımalıdır | Giriş uğurlu oldu və profil səhifəsi açıldı |
 
 
 
@@ -19,9 +19,9 @@
 ## Precondition:Qeydiyyatdan keçmiş istifadəçi mövcüddür
 | Steps| ACTION                                  |    DATA                 |   EXPECTED  RESULT               |  ACTUAL  RESULT        |
 |------|-----------------------------------------|-------------------------|----------------------------------|------------------------|
-|1     |  Login səfifəsini aç                    |                         | login səhifəsi açılmalıdır           | login səhifəsi açıldı |
-|2     | Email sahəsinə  invalid email  daxil et |  perH1234@gmail.com     |məlumat email sahəsində görünməlidir   |  email düzgün xanada görünür |
-|3     | Password sahəsinə invalid şifrə daxil et|  M1237#qa               |şifrə password xanasında görünməlidir  |password düzgün xanada görünür  |
+|1     |  Login səfifəsini aç                    |                         | Login səhifəsi açılmalıdır           | Login səhifəsi açıldı |
+|2     | Email sahəsinə  invalid email  daxil et |  perH1234@gmail.com     |Məlumat email sahəsində görünməlidir   |  Email düzgün xanada görünür |
+|3     | Password sahəsinə invalid şifrə daxil et|  M1237#qa               |Şifrə password xanasında görünməlidir  |Password düzgün xanada görünür  |
 |4     |Login düyməsinə click et                 |                         |İstifadəçi sistemə daxil olmamalıdır   |"Daxil etdiyiniz Email və ya şifrə yanlışdır" xəta mesajı gəlir|
 
 ## TEST CASE 3
@@ -32,7 +32,7 @@
 |-----|----------------------------|-------|------------------------------------------------|--------------------------------------------|
 |1    |Email sahəsini boş saxla    |       |Email xanasında heçnə yazılmamalıdır            |Email sahəsi boşdur                         |
 |2    |Password  sahəsini boş saxla|       |Şifrə sahəsi boş olmalıdır                      |Password sahəsi boşdur                      |
-|3    |"login " düyməsini clicklə  |       |Xəta mesajı çıxmalıdır və login baş verməməlidir| "Please fill out this field" mesajı gəlir  |
+|3    |"Login " düyməsini clicklə  |       |Xəta mesajı çıxmalıdır və login baş verməməlidir| "Please fill out this field" mesajı göndərilir  |
 
 
 ## Test Case 4
@@ -42,9 +42,9 @@
 
 | STEPS| ACTION                         |  DATA              | EXPECTED RESULT                                                    | ACTUAL RESULT                    
 |------|--------------------------------|--------------------|-------------------------------------------------------------------  |-----------------------------|
-|1     |Kapital Bank veb tətbiqini aç|                    | veb tətbiqin Home page görünməlidir                                    | Dashboard açıldı                   
-|2     |"Pul köçürmə " bölməsinə keç |                    | Pul köçürmə səhifəsi açılmalıdır                                       |pul köçürmə səhifəsi açıldı                    
-|3     | Kart nömrəsini daxil et     |1234 5678 9768 1090 |Kart nömrəsi xanada görunməlidir                                        |kart nömrəsi xanada görünür         
+|1     |Kapital Bank veb tətbiqini aç|                    | Veb tətbiqin home page görünməlidir                                    | Dashboard açıldı                   
+|2     |"Pul köçürmə " bölməsinə keç |                    | Pul köçürmə səhifəsi açılmalıdır                                       |Pul köçürmə səhifəsi açıldı                    
+|3     | Kart nömrəsini daxil et     |1234 5678 9768 1090 |Kart nömrəsi xanada görunməlidir                                        |Kart nömrəsi xanada görünür         
 |4     | Köçürmə məbləği daxil et    | 50 AZN             | Daxil edilən məbləğ xanada görünməlidir                                |Köçürmə məbləği xanada görünür|
 |5     | "Köçür" düyməsinə click et  |                    |əməliyyatın icrası başlamalıdır                                         | Prosses başlayır            |
 |6     |Əməliyyatı təstiqlə          |                    | Pul uğurla köçürülür "Əməliyyat uğurla tamamlandı" mesajı göstərilməlidir|Köçürmə uğurla tamamlandı və təstiq mesajı gəldi     
@@ -59,7 +59,7 @@
 |1    |Kapital bank tətbiqini aç        |                   | Tətbiq açılmalıdır                |Tətbiq açılır və home page görünür             |
 |2    |Pul köçürmə səhifəsinə keç       |                   | Köçürmə səhifəsinə daxil olmalıdır| Pul köçürmə səhifəsi açılır                   |
 |3    |Kart nömrəsini daxil et          |1997 2026 2021 1992| Nömrə uyğün xanada görünməlidir   |Kart nömrəsi düzgün xanada görünür             |
-|4    |balansdan yuksək məbləğ daxil et |800 AZN            |məbləğ uyğun xanada görünməlidir   |Məbləğ düzgün xanada görünür                   |
+|4    |cari balansdan yuksək məbləğ daxil et |800 AZN            |Məbləğ uyğun xanada görünməlidir   |Məbləğ düzgün xanada görünür                   |
 |5    |Köçür düyməsinə click et         |                   |Xəbərdarlıq mesajı gəlməlidir      | Balans kifayət deyil xəbərdarlıq mesajı gəlir |
 
 
