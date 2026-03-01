@@ -8,7 +8,7 @@
 - ### Şifrə  çox uzun olduqda error  mesajı  və ya limit  tətbiq  olunur
 - ### Şifrədə  böyük  və  kiçik  hərflərin eyni  zamanda  xüsüsi   simvolların    istifadəsinə  icazə  verilir
 -  ### Login  sətrində  şifrə  maskalanır
--  ### Bir neçə  səhv  cəhddən  sonra  heasb  bloklanır
+-  ### Bir neçə  səhv  cəhddən  sonra  hesab  bloklanır
 ##  HOME  PAGE
 - ### Home  page düzgün  açılır və  page  title  düzgün   göstərilir
 - ### Baş menyu elementləri  görünür menyu  uzərində hover kliklər düzgün  işləyir
