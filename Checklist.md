@@ -11,7 +11,7 @@
 -  ### Bir neçə  səhv  cəhddən  sonra  hesab  bloklanır
 ##  HOME  PAGE
 - ### Home  page düzgün  açılır və  page  title  düzgün   göstərilir
-- ### Baş menyu elementləri  görünür menyu  uzərində hover kliklər düzgün  işləyir
+- ### Baş menyu elementləri  görünür, menyu  uzərində hover kliklər düzgün  işləyir
 - ### Hər  bir menyu  düzgün  səhifəyə  yönləndirir
 - ### Reklam  bannerləri  və  əməliyyatların  icra  butonları  düzgün işləyir
 - ### Bannerlər  kilkləndikdə  düzgün  səhifəyə  keçid olur
