@@ -7,7 +7,7 @@
 |-----|------------------------|----------------------|------------------------------------------------------|----------------------|
 |1    |Kapital bank veb saytını aç|                   |Kapital bank veb saytı açılır                         |  Sayt açılır         |                      
 |2    |Login səhifəsini aç     |                      |  Səhifə açılmalıdır                                  |Login səhifəsi açılır |
-|3    | Email sahəsinə valid  email daxil et   | pervinferzi@gmail.com| Pəlumat email sahəsində görünməlidir                 | Email düzgün xanada görünür|
+|3    | Email sahəsinə valid  email daxil et   | pervinferzi@gmail.com| Məlumat email sahəsində görünməlidir                 | Email düzgün xanada görünür|
 |4    | Password sahəsinə valid password daxil et | H1234%miko           |  Password şifrə sahəsində görünməlidir               | Password düzgün xanada görünür 
 |5    |Login düyməsinə click et|                      | Istifadəçi girişi uğurlu olmalı,profil səhifəsi açılımalıdır | Giriş uğurlu oldu və profil səhifəsi açıldı |
 
