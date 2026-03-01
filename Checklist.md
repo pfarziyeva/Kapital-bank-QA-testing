@@ -36,7 +36,7 @@
   - ### Dosta  köçürmə  və  dostlardan  pul  sorğusu  əməliyyatları  işləyir
   - ### Məbləğ   sıfır  olduqda köçürməyə  icazə  verilmir
   -  ### Mənfi və  simvol daxil edilmiş   məbləğ  qəbul  edilmir və " Məbləğ  düzgün  deyil" xəbərdarlıq  mesajı gəlir
-  -  ### Cari  balansdan  kifayət   yüksək   məbləğ  daxil  edildikdə "Balansınız  kifayət  deyil" xəbərdarlıq mesajı  gəlir
+  -  ### Cari  balansdan   yüksək   məbləğ  daxil  edildikdə "Balansınız  kifayət  deyil" xəbərdarlıq mesajı  gəlir
   -  ### Köçürmə  məbləği  minimum limitdən aşağı olduqda "Minimüm  köçürme məbləği X AZN-dır" və  maksimum limitdən yüxarı  olduqda"maksimüm köçürmə məbləği Y AZN-dir" xəbərdarlıq  mesajı  gəlir 
   -  ### Pul köçürülməsidə  kart nömrəsinin skan edilməsi zamanı  kart  nömrəsi düzgün şəkildə daxil olur
   -  ### Pul  köçürməsi  zamanı  təstiq  mesajı  (OTP / SMS )  gəlir
