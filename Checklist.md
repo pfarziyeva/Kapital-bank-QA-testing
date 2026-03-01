@@ -16,9 +16,9 @@
 - ### Reklam  bannerləri  və  əməliyyatların  icra  butonları  düzgün işləyir
 - ### Bannerlər  kilkləndikdə  düzgün  səhifəyə  keçid olur
 - ### Kart  hesabları  ana səhifədə  görünür
-- ### ƏDV , Keşbek, Bonus  əməliyyatları  ana səhifədə   görünür
+- ### ƏDV , keşbek, bonus  əməliyyatları  ana səhifədə   görünür
 - ### Butun keşbek, ƏDV balansları  düzgün  göstərilir
-- ### ƏDV  və Keşbek  məbləğləri  düzgün  hesablanır
+- ### ƏDV  və keşbek  məbləğləri  düzgün  hesablanır
  ## İstifadəçi   Profili
 - ### Profil  məlumatları ( ad,  soyad,email və  telefon  nömrəsi )  düzgün  göstərilir 
 - ### Tətbiqə giriş  üçün  barmaq  izi  və Passcode seçimi  aktivdir
