@@ -3,7 +3,7 @@
 ## Title:Valid məlumatlarla Login fünksiyasının yoxlanışı
 ## Preconditions: İstifadəçi  sistemdə  qeydiyyatdan  keçib
 
-|steps|   Action               |    Data              |    Expected Result                                   |    Actual REsult     |
+|steps|   Action               |    Data              |    Expected Result                                   |    Actual Result     |
 |-----|------------------------|----------------------|------------------------------------------------------|----------------------|
 |1    |Kapital bank veb saytını aç|                   |Kapital bank veb saytı açılır                         |  Sayt açılır         |                      
 |2    |Login səhifəsini aç     |                      |  Səhifə açılmalıdır                                  |Login səhifəsi açılır |
@@ -17,7 +17,7 @@
 ## Test case ID: TC_002
 ## Title: Invalid məlumatlarla Login funksiyasının yoxlanışı
 ## Precondition:Qeydiyyatdan keçmiş istifadəçi mövcüddür
-| Steps| ACTION                                  |    DATA                 |   EXPECTED  RESULT               |  ACTUAL  RESULT        |
+| Steps| Action                                  |    Data                 |   Expected Result                |  Actual Result         |
 |------|-----------------------------------------|-------------------------|----------------------------------|------------------------|
 |1     |  Login səfifəsini aç                    |                         | Login səhifəsi açılmalıdır           | Login səhifəsi açıldı |
 |2     | Email sahəsinə  invalid email  daxil et |  perH1234@gmail.com     |Məlumat email sahəsində görünməlidir   |  Email düzgün xanada görünür |
@@ -25,10 +25,10 @@
 |4     |Login düyməsinə click et                 |                         |İstifadəçi sistemə daxil olmamalıdır   |"Daxil etdiyiniz Email və ya şifrə yanlışdır" xəta mesajı gəlir|
 
 ## TEST CASE 3
-## TEST CASE ID : TC_003
-## TITLE : Boş email və şifrə ilə Login funksiyasının yoxlanışı
+## Test Case ID : TC_003
+## Title : Boş email və şifrə ilə Login funksiyasının yoxlanışı
 ## Precendition : Login səhifəsi açıqdır
-|STEPS|   ACTION                   | DATA  |   EXPECTED  RESULT                             |  ACTUAL  RESULT                            |
+|Steps|   Action                   | Data  |   Expected Result                              |  Actual   Result                           |
 |-----|----------------------------|-------|------------------------------------------------|--------------------------------------------|
 |1    |Email sahəsini boş saxla    |       |Email xanasında heçnə yazılmamalıdır            |Email sahəsi boşdur                         |
 |2    |Password  sahəsini boş saxla|       |Şifrə sahəsi boş olmalıdır                      |Password sahəsi boşdur                      |
@@ -37,10 +37,10 @@
 
 ## Test Case 4
 ## Test Case ID : TC_004
-## TITLE:Uğurlu  pul  köçurmə  əməliyyatı
+## Title:Uğurlu  pul  köçurmə  əməliyyatı
 ## Precondition : Istifadəçi login  olmuşdur və hesabda kifayət qədər  balans var
 
-| STEPS| ACTION                         |  DATA              | EXPECTED RESULT                                                    | ACTUAL RESULT                    
+| Steps| Action                        |  Data             | expected Result                                                   | Actual result                    
 |------|--------------------------------|--------------------|-------------------------------------------------------------------  |-----------------------------|
 |1     |Kapital Bank veb tətbiqini aç|                    | Veb tətbiqin home page görünməlidir                                    | Dashboard açıldı                   
 |2     |"Pul köçürmə " bölməsinə keç |                    | Pul köçürmə səhifəsi açılmalıdır                                       |Pul köçürmə səhifəsi açıldı                    
@@ -50,11 +50,11 @@
 |6     |Əməliyyatı təstiqlə          |                    | Pul uğurla köçürülür "Əməliyyat uğurla tamamlandı" mesajı göstərilməlidir|Köçürmə uğurla tamamlandı və təstiq mesajı gəldi     
                                                                            
 ## TEST CASE 5
-## TEST CASE ID: TC_005
-## TITLE : Balansdan artıq məbləğin köçürülməsi
-## PRECONDITION :İstifadəçi login olmuşdur və  hesab balansı köçürülən məbləğdən azdır(Balans 500 AZN)
+## Test Case ID: TC_005
+## Title : Balansdan artıq məbləğin köçürülməsi
+## Precondition :İstifadəçi login olmuşdur və  hesab balansı köçürülən məbləğdən azdır(Balans 500 AZN)
 
-|STEPS| ACTION                          |DATA               | EXPECTED RESULT                   | ACTUAL RESULT                                 |
+|Steps| Action                          |Data               | Expected Result                  | Actual Result                                 |
 |-----|---------------------------------|-------------------|-----------------------------------|-----------------------------------------------|
 |1    |Kapital bank tətbiqini aç        |                   | Tətbiq açılmalıdır                |Tətbiq açılır və home page görünür             |
 |2    |Pul köçürmə səhifəsinə keç       |                   | Köçürmə səhifəsinə daxil olmalıdır| Pul köçürmə səhifəsi açılır                   |
@@ -66,11 +66,11 @@
 
                       
 ## TEST CASE 6
-## TEST CASE ID: TC_006
-## TITLE : Mənfi və sıfır məbləğ ilə pul transferi
-## PRECONDITION :İstifadəçi veb tətbiqdə login olmuşdur 
+## Test Case ID: TC_006
+## Title : Mənfi və sıfır məbləğ ilə pul transferi
+## Precondition :İstifadəçi veb tətbiqdə login olmuşdur 
 
-|STEPS| ACTION                            |DATA               | EXPECTED RESULT                   | ACTUAL RESULT                                 |
+|Steps| Action                            |Data               | Expected Result                   Actual Result                               |
 |-----|-----------------------------------|-------------------|-----------------------------------|-----------------------------------------------|
 |1    |Kapital bank tətbiqini aç          |                   | Tətbiq açılmalıdır                |Tətbiq açılır və home page görünür             |
 |2    |Pul köçürmə səhifəsinə keç         |                   | Köçürmə səhifəsinə daxil olmalıdır| Pul köçürmə səhifəsi açılır                   |
@@ -81,11 +81,11 @@
 
           
 ## TEST CASE 7
-## TEST CASE ID: TC_007
-## TITLE : Yanlış kart  nömrəsi ilə transfer
-## PRECONDITION :İstifadəçi veb tətbiqdə login olmuşdur 
+## Test Case ID: TC_007
+## Title : Yanlış kart  nömrəsi ilə transfer
+## Precondition :İstifadəçi veb tətbiqdə login olmuşdur 
 
-|STEPS| ACTION                            |DATA               | EXPECTED RESULT                   | ACTUAL RESULT                                 |
+|Steps| Action                           |Data                | Expected Result                   | Actual result                                 |
 |-----|-----------------------------------|-------------------|-----------------------------------|-----------------------------------------------|
 |1    |Kapital bank tətbiqini aç          |                   | Tətbiq açılmalıdır                |Tətbiq açılır və home page görünür             |
 |2    |Pul köçürmə səhifəsinə keç         |                   | Köçürmə səhifəsinə daxil olmalıdır| Pul köçürmə səhifəsi açılır                   |
