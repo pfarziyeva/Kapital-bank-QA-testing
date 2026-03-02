@@ -3,20 +3,21 @@
 ## Module :Authentication,Accounts & Dashboard , Funds Transfer ,Cards ,Payments, Security & Session Managment,UI/UX & Usability
 
 ## Authentication module
+
 ### TS-01 -Verify successful login with valid registered user credentials
-** Risk Level :** Crirical
-** Preconditions  :**  İstifadəçi sistemdə qeydiyyatdan keçmişdir
-** Test Scenario : ** Düzgün email və şifrə daxil edərək sistemə giriş və Dashboard səhifəsinə  yönləndirmə mümkün olmalıdır.
+### Risk Level : Crirical
+### Preconditions  :  İstifadəçi sistemdə qeydiyyatdan keçmişdir
+### Test Scenario :  Düzgün email və şifrə daxil edərək sistemə giriş və Dashboard səhifəsinə  yönləndirmə mümkün olmalıdır.
 
 ### TS-02 - Verify system behavior for login attempt with invalid password
-** Risk Level :**  High
-** Preconditions  :**  İstifadəçi emaili sistemdə mövcüddür
-** Test Scenario :**  İstifadəçi yanlış şifrə daxil etdikdə login cəhdi uğursuz olmalı və Password yanlışdır xəta mesajı göstərilir.
+### Risk Level :  High
+### Preconditions  :  İstifadəçi emaili sistemdə mövcüddür
+### Test Scenario : İstifadəçi yanlış şifrə daxil etdikdə login cəhdi uğursuz olmalı və Password yanlışdır xəta mesajı göstərilir.
 
 ### TS -03 - Validate mandatory  field checks during login process
-** Risk Level  :**  Medium
-** Preconditions : ** Login  səhifəsi  əlçatandır
-** Test Scenario  : ** Email  və  şifrə  sahəsi  boş buraxılaraq login cəhdi uğursuz olmalı və muvafiq validasiya mesajları göstərilir və sessiya yaradılmır.
+### Risk Level  :  Medium
+### Preconditions :  Login  səhifəsi  əlçatandır
+### Test Scenario  :  Email  və  şifrə  sahəsi  boş buraxılaraq login cəhdi uğursuz olmalı və muvafiq validasiya mesajları göstərilir və sessiya yaradılmır.
 
 ### TS -04 - Verify security control after  multiple  consecutive  failed  login attempts 
 ** Risk Level  :**  High
