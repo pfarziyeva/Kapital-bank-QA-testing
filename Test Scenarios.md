@@ -1,8 +1,15 @@
 # Kapital Bank web Application Test Scenarios
 ## Procekt : Kapital Bank web application
-## Module :Authentication,Accounts & Dashboard , Funds Transfer ,Cards ,Payments, Security & Session Managment,UI/UX & Usability
+## Module :
+- ## Authentication
+- ## Accounts & Dashboard
+- ## Funds Transfer
+- ## Cards
+- ## Payments
+- ## Security & Session Managment
+- ## UI/UX & Usability
 
-## Authentication module
+ ## 1) Authentication module
 
 ## TS-01 -Verify successful login with valid registered user credentials
 - ### Risk Level : Crirical
@@ -26,7 +33,7 @@
 
 
 
-## Accounts &  Dashboard  Module
+##  2) Accounts &  Dashboard  Module
 
 ### TS -05 - verify  correct display of account balance  after  successful authentication
 ** Risk Level : **  Critical
