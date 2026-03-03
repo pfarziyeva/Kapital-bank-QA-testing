@@ -70,7 +70,7 @@
 ## Title : Mənfi və sıfır məbləğ ilə pul transferi
 ## Precondition :İstifadəçi veb tətbiqdə login olmuşdur 
 
-|Steps| Action                            |Data               | Expected Result                   Actual Result                               |
+|Steps| Action                            |Data               | Expected Result                   | Actual Result                                 |
 |-----|-----------------------------------|-------------------|-----------------------------------|-----------------------------------------------|
 |1    |Kapital bank tətbiqini aç          |                   | Tətbiq açılmalıdır                |Tətbiq açılır və home page görünür             |
 |2    |Pul köçürmə səhifəsinə keç         |                   | Köçürmə səhifəsinə daxil olmalıdır| Pul köçürmə səhifəsi açılır                   |
