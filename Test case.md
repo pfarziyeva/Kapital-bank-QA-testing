@@ -93,3 +93,50 @@
 |4    |Məbləğ sahəsinə köçürmə məbləği yaz|     100 AZN       |Xəbərdarlıq mesajı çıxmalıdır      |"Minimal dəyər 1.00 AZN olmalıdır" mesajı çıxır|
 |5    |"Göndər" düyməsinə click et        |                   |Xəbərdarlıq mesajı çıxmalıdır      |"Kart nömrəsi yanlışdır" mesajı çıxır          |   
 
+
+
+
+## TEST CASE 8
+## Test Case ID: TC_008
+## Title : Düzgün OTP kodu ilə təstiq
+## Precondition :İstifadəçi veb tətbiqdə login olmuşdur.Transfer əməliyyatı başladılıb 
+
+|Steps| Action                           |Data                | Expected Result                   | Actual result                                 |
+|-----|-----------------------------------|-------------------|-----------------------------------|-----------------------------------------------|
+|1    |Kapital bank tətbiqini aç          |                   | Tətbiq açılmalıdır                |Tətbiq açılır və home page görünür             |
+|2    |Pul köçürmə səhifəsinə keç         |                   | Köçürmə səhifəsinə daxil olmalıdır| Pul köçürmə səhifəsi açılır                   |
+|3    |Kart nömrəsini daxil et            |1997 2026 2021 1992| Nömrə uyğün xanada görünməlidir   |Kart nömrəsi düzgün xanada görünür             |
+|4    |Məbləğ sahəsinə köçürmə məbləği yaz|     100 AZN       |Məbləğ düzgün xanada görünməlidir  |Daxil edilmiş məbləğ düzgündür                 |
+|5    |"Göndər" düyməsinə click et        |                   |Transfer əməliyyatı  başlamalıdır  |Köçürmə icra olunmağa başlayəır                | 
+|6    |SMS bölməsinə gələn OTP kodu daxil et| XXXXXX          |Kod düzgün xanada görünməlidir     |Kod uyğun xanadadır                            |
+|7    |Təstiqlə düyməsini kliklə            |                 | Əməliyyat icra olunmalıdır        | Pul transferi uğurlu olur və təstiq  mesajı  göndərilir |
+
+
+
+
+## TEST CASE 9
+## Test Case ID: TC_009
+## Title : Eyni  OTP-nin  təkrar istifadəsi
+## Precondition :İstifadəçi veb tətbiqdə login olmuşdur .Transfer əməliyyatı uğurla OTP ilə tamamlanmışdır
+
+|Steps| Action                           |Data                | Expected Result                   | Actual result                                 |
+|-----|-----------------------------------|-------------------|-----------------------------------|-----------------------------------------------|
+|1    |Kapital bank tətbiqini aç          |                   | Tətbiq açılmalıdır                |Tətbiq açılır və home page görünür             |
+|2    |Pul köçürmə səhifəsinə keç         |                   | Köçürmə səhifəsinə daxil olmalıdır| Pul köçürmə səhifəsi açılır                   |
+|3    |Transfer əməliyyatını OTP ilə uğurla tamala|  XXXXXX  | Əməliyyat uğurla bitməlidir       |Transfer uğurlu olur və təstiq mesajə göndərilir|
+|4    |Eyni OTP kodu ilə yeni transfer başlat|                |Əməliyyat başlamalıdır             |Təkrar transfer əməliyyatı başlayır             |
+|5    |OTP sahəsinə əvvəlki kodu daxil et | XXXXXX            |Kod uyğun xanada görünməlidir      | Kod düzgün xanada görünür                      |
+|6    |"Təstiq et" duyməsinə kliklə         |                   |Sistem OTP ni qəbul etməməlidir.Xəbərdarlıq mesajı çıxmalıdır|OTP qəbul olunmur."OTP artıq istifadə olunub" mesajı çıxır.Əməliyyat icra olunmur
+
+
+
+
+
+
+
+
+
+
+
+
+
