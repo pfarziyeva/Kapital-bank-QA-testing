@@ -130,7 +130,35 @@
 
 
 
+## TEST CASE 10
+## Test Case ID: TC_10
+## Title : Yanlış  OTP daxil edilməsi
+## Precondition :İstifadəçi veb tətbiqdə login olmuşdur .
 
+
+|Steps| Action                           |Data                | Expected Result                   | Actual result                                 |
+|-----|-----------------------------------|-------------------|-----------------------------------|-----------------------------------------------|
+|1    |Kapital bank tətbiqini aç          |                   | Tətbiq açılmalıdır                |Tətbiq açılır və home page görünür             |
+|2    |Pul köçürmə səhifəsinə keç         |                   | Köçürmə səhifəsinə daxil olmalıdır| Pul köçürmə səhifəsi açılır                   |
+|3    |Kart nömrəsini daxil et            |1234 5678 9123 4582| Nömrə uyöun xanada görünməlidir   |Kart nömrəsi düzgün xanada görünür             |
+|4    |Köçürmə məbləğini daxil et         |  500 AZN          |Məbləğ düzgün xanada görünməlidir  |Məbləğ uyğun xanada görünür                    |
+|5    |OTP sahəsinə yanlış kodu daxil et  | XXXXXX            |Kod uyğun xanada görünməlidir      | Kod düzgün xanada görünür                      |
+|6    |"Təstiq et" duyməsinə kliklə       |                   |Sistem OTP ni qəbul etməməlidir.Xəbərdarlıq mesajı çıxmalıdır|OTP qəbul olunmur.Əməliyyat icra olunmur
+
+
+
+## TEST CASE 11
+## Test Case ID: TC_11
+## Title : SQL  injection yoxlanışı
+## Precondition :İstifadəçi login  səhifəsi açıqdır.
+
+
+|Steps| Action                           |Data                | Expected Result                   | Actual result                                 |
+|-----|-----------------------------------|-------------------|-----------------------------------|-----------------------------------------------|
+|1    |Kapital bank tətbiqini aç          |                   | Tətbiq açılmalıdır                |Tətbiq açılır və home page görünür             |
+|2    |Username sahəsinə ' OR '1'='1 daxil et| '1'='1         | məlumat uyöun xanada olmalıdır    |yazdığımız username düzgün xanadadır           |
+|3    |Password sahəsinə istənilən şifrə yaz |Mek2021%nem     | şifrə uyğun xanada görünməlidir   |şifrə düzgün xanada görünür             |
+|4    |Login et düyməsinə clicklə         |                   |Login uğursuz olmalıdır            |Login uğursuz olur database istifadəçiyə göstərilmir.Məlumat bazası təhlukəsizdir
 
 
 
