@@ -68,8 +68,7 @@
 ## TS - 08  -  Verify successful internal  funds transfer between user accounts
 - ### Risk  Level : Critical
 - ### Preconditions  : Istifadəçi login olub və kifayət  qədər  balans mövcüddür
-- ### Test  Scenario :  Transfer bölməsinə daxil ol, alıcı hesabı seç, məbləği  daxil  et  və  təstiqlə düyməsini  clicklədikdə transfer  uğurla  tamamlanır balans
-yenilənir  və tranzaksiya tarixçəyə əlavə olunur.
+- ### Test  Scenario :  Transfer bölməsinə daxil ol, alıcı hesabı seç, məbləği  daxil  et  və  təstiqlə düyməsini  clicklədikdə transfer  uğurla  tamamlanır balans yenilənir  və tranzaksiya tarixçəyə əlavə olunur.
 
 
 
