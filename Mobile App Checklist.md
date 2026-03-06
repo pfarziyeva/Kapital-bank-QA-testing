@@ -69,7 +69,7 @@
     - ### Balansdan artıq məbləğ daxil edildikdə " Insufficient balance.Please check your account balance. "  xəbərdarlıq mesajı görünür
     - ### Mənfi və ya sıfır  məbləğ sistem tərəfindən qəbul edilmir və xəbərdarlıq mesajı gəlir
     - ### Günlük transfer limiti aşıldıqda sistəmə xəbərdarlıq mesajı gəlir
-    - ### Boş sahələrlə transfer mümkün olmur
+    - ### Boş sahələrlə transfer mümkün olmur və " Please fill in all required fields" xəta mesajı görünür.
     - ### Minimum köçurmə məbləğindən aşağı məbləğ daxil edildikdə " Minimum köçürmə məbləği X AZN-dir " xəbərdarlıq mesajı görünür
     - ### Transferin təstiqi üçün OTP  və ya SMS kodunun göndərilməsi yoxlanılır
     - ### Yanlış OTP daxil  edildikdə xəta mesajının göndərilməsi  yoxlanılır.
