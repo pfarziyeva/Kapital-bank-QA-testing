@@ -20,7 +20,7 @@
   - ### Yanlış username və şifrə  daxil  edildikdə " İnvalid username  or  password " xəta mesajı  göstərilir
   - ### İstifadəçi  adı və ya şifrə  sahəsi  boş saxlanıldıqda  "  Please fill in all required fields " xəta  mesajı  görünür .
   - ### Şifrə minimum limitdən yəni 8 simvoldan az olduqda  xəbərdarlıq mesajı gəlir
-  - ### Şifrədə hərf rəqəm  və xüsüsi simvolların istifadəsi  mümkündür
+  - ### Şifrədə hərf, rəqəm  və xüsüsi simvolların istifadəsi  mümkündür
   - ### Şifrə maskalanmsı fünksiyası düzgün işləyir
   - ### Forgot password  fünksiyası düzgün icra olunur.
  
@@ -43,38 +43,47 @@
    - ### Zəif  internet bağlantısında tətbiqin  davranışı yoxlanılır.
    - ### İnternet  bağlantısı  kəsildikdə yəni  offline  rejimdə "  You're  offline! Check your internet connection " xəta  mesajı gəlir.
    - ### internet  bərpa olunduqda  tətbiq  işləməyə  davam edir.
-    - ###
+      
         
    ## Notification  Testing
         
    - ### Push notificationlar düzgün  göndərilir
-   - ### Notification click  edildikdə uyğun  səhiə  açılır.
+   - ### Notification click  edildikdə uyğun  səhifə  açılır.
    - ### Notification  məzmunu  düzgün  göstərilir.
 
    ## Security  Testing
   - ### Şifrə  daxil  edilərkən məlumat gizli  şəkildə göstərilir  yəni  maskalnır.
   - ### İstifadəçi  sessiyası  müəyyən  müddətdən  sonra avtomatik  bağlanır.
-  - ### Birdən  çox uğursuz  login  cəhdindən  sonra  xəbərdarlıq  mesajı  göstərilir.
-  - ### 
-  - ###
-  - ###
-  - ###
+  - ### Birdən  çox uğursuz  login  cəhdindən  sonra hesabın müvəqqəti bloklanması yoxlanılır.
+  - ### Logout etdikdən sonra " Back buttonu " ilə hesab səhifəsinə daxil olmaq yoxlanılır.
+  - ### Güclü şifrə tələbləri yəni böyük hərf , kiçik hərf ,rəqəm  və xüsüsi simvolların istifadəsi yoxlanılır.
+  - ### Şifrə dəyişdirildikdən  sonra köhnə  şifrənin istifadə edilə bilməməsi yoxlanılır.
+  - ### İstifadəçinin icazəsi olmayan səhifələrə daxil ola bilməməsi  yoxlanılır
+  - ### Tətbiqin yalnız təhlükəsiz bağlantı yəni HTTPS protokolu istifadə etməsi yoxlanılır
+  - ### Session token-ların təhlükəsiz ötürülməsi yoxlanılır.
+  
 
     ## Transfer  Testing
-    - ### Düzgün 
-    - ###
-    - ###
-    - ###
-    - ###
-    - ###
-    - ###
-    - ###
-    - ###
-    - ###
-    - ###
-    - ###
-    - ###
-    - ###
+    - ### Düzgün istifadəçi məlumatları ilə istənilən bank kartına transfer mümkündür.
+    - ### Mənim kart hesablarım arasında pul köçürmə fünksiyası düzgündür
+    - ### Balansdan artıq məbləğ daxil edildikdə " Insufficient balance.Please check your account balance. "  xəbərdarlıq mesajı görünür
+    - ### Mənfi və ya sıfır  məbləğ sistem tərəfindən qəbul edilmir və xəbərdarlıq mesajı gəlir
+    - ### Günlük transfer limiti aşıldıqda sistəmə xəbərdarlıq mesajı gəlir
+    - ### Boş sahələrlə transfer mümkün olmur
+    - ### Minimum köçurmə məbləğindən aşağı məbləğ daxil edildikdə " Minimum köçürmə məbləği X AZN-dir " xəbərdarlıq mesajı görünür
+    - ### Transferin təstiqi üçün OTP  və ya SMS kodunun göndərilməsi yoxlanılır
+    - ### Yanlış OTP daxil  edildikdə xəta mesajının göndərilməsi  yoxlanılır.
+    - ### OTP kodunun vaxt limiti yoxlanılır
+    - ### Transferdən  sonra əməliyyatın history-də görünməsi yoxlanılır
+    - ### Tarix məbləğ və alıcı  məlumatlarının düzgün  göstərilməsi yoxlanılır
+      
+    ## Compatiblity Testing
+    - ### Tətbiqin muxtəlif mobil cihaz modellərində (müxtəlif ekran ölçüləri və hardware xüsüsiyyətləri  olan cihazlarda ) düzgün işləməsi  yoxlanılır
+    - ### Tətbiqin müxtəlif operating system versiyalarında ( Android / İOS) stabil işləməsi yoxlanılır.
+    - ### Tətbiqin müxtəlif ekran ölçülərində və resolution-larda UI  elementlərinin düzgün  görünməsi yoxlanılır
+    - ### Tətbiqin portrait və landscape rejimlərində düzgün işləməsi  yoxlanılır
+    - ### Tətbiqin müxtəlif istehsalçı cihazlarında ( Samsung, Xiaomi ,Huawei və s.) fünksional olaraq düzgün  işləməsi yoxlanılır
+    
 
 
 
