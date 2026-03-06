@@ -31,38 +31,38 @@
   - ### Scrool fünksiyası düzgün  işləyir.
   - ### Düymələr  və  linklər düzgün səhifəyə yönləndirir.
 
-    ## Navigation  Testing
-    - ### Tətbiq  daxilində  səhifələr  arasında keçid  düzgün  işləyir
-    - ### Back düyməsi  düzgün işləyir
-    - ### İstifadəçi  əsas  səhifəyə  rahat  qayıda  bilir.
-    - ### Menü elementləri düzgün   yönləndirir.
+   ## Navigation  Testing
+  - ### Tətbiq  daxilində  səhifələr  arasında keçid  düzgün  işləyir
+  - ### Back düyməsi  düzgün işləyir
+  - ### İstifadəçi  əsas  səhifəyə  rahat  qayıda  bilir.
+  - ### Menü elementləri düzgün   yönləndirir.
  
-    ## Screen  Orientation Testing
+   ## Screen  Orientation Testing
     - ### Tətbiq  "portrait rejimdə "  düzgün  işləyir.
     - ### Cihaz çevrildikdə  tətbiq səhv  vermir
     - ###  UI  elementləri  ekran  ölçüsünə  uyğunlaşır.
     - ###
 
-      ## Network  Testing
-      - ### Zəif  internet bağlantısında tətbiqin  davranışı yoxlanılır.
-      - ### İnternet  bağlantısı  kəsildikdə yəni  offline  rejimdə "  You're  offline! Check your internet connection " xəta  mesajı gəlir.
-      - ### internet  bərpa olunduqda  tətbiq  işləməyə  davam edir.
-      - ###
+   ## Network  Testing
+   - ### Zəif  internet bağlantısında tətbiqin  davranışı yoxlanılır.
+   - ### İnternet  bağlantısı  kəsildikdə yəni  offline  rejimdə "  You're  offline! Check your internet connection " xəta  mesajı gəlir.
+   - ### internet  bərpa olunduqda  tətbiq  işləməyə  davam edir.
+    - ###
         
-        ## Notification  Testing
+   ## Notification  Testing
         
-      - ### Push notificationlar düzgün  göndərilir
-      - ### Notification click  edildikdə uyğun  səhiə  açılır.
-      - ### Notification  məzmunu  düzgün  göstərilir.
+   - ### Push notificationlar düzgün  göndərilir
+   - ### Notification click  edildikdə uyğun  səhiə  açılır.
+   - ### Notification  məzmunu  düzgün  göstərilir.
 
-        ## Security  Testing
-        - ### Şifrə  daxil  edilərkən məlumat gizli  şəkildə göstərilir  yəni  maskalnır.
-        - ### İstifadəçi  sessiyası  müəyyən  müddətdən  sonra avtomatik  bağlanır.
-        - ### Birdən  çox uğursuz  login  cəhdindən  sonra  xəbərdarlıq  mesajı  göstərilir.
-        - ### 
-        - ###
-        - ###
-        - ###
+   ## Security  Testing
+  - ### Şifrə  daxil  edilərkən məlumat gizli  şəkildə göstərilir  yəni  maskalnır.
+  - ### İstifadəçi  sessiyası  müəyyən  müddətdən  sonra avtomatik  bağlanır.
+  - ### Birdən  çox uğursuz  login  cəhdindən  sonra  xəbərdarlıq  mesajı  göstərilir.
+  - ### 
+  - ###
+  - ###
+  - ###
 
 
 
