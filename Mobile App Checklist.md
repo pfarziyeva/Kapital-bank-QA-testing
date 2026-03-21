@@ -50,20 +50,8 @@
    - ### Push notificationlar düzgün  göndərilir
    - ### Notification click  edildikdə uyğun  səhifə  açılır.
    - ### Notification  məzmunu  düzgün  göstərilir.
-
-   ## Security  Testing
-  - ### Şifrə  daxil  edilərkən məlumat gizli  şəkildə göstərilir  yəni  maskalnır.
-  - ### İstifadəçi  sessiyası  müəyyən  müddətdən  sonra avtomatik  bağlanır.
-  - ### Birdən  çox uğursuz  login  cəhdindən  sonra hesabın müvəqqəti bloklanması yoxlanılır.
-  - ### Logout etdikdən sonra " Back buttonu " ilə hesab səhifəsinə daxil olmaq yoxlanılır.
-  - ### Güclü şifrə tələbləri yəni böyük hərf , kiçik hərf ,rəqəm  və xüsüsi simvolların istifadəsi yoxlanılır.
-  - ### Şifrə dəyişdirildikdən  sonra köhnə  şifrənin istifadə edilə bilməməsi yoxlanılır.
-  - ### İstifadəçinin icazəsi olmayan səhifələrə daxil ola bilməməsi  yoxlanılır
-  - ### Tətbiqin yalnız təhlükəsiz bağlantı yəni HTTPS protokolu istifadə etməsi yoxlanılır
-  - ### Session token-ların təhlükəsiz ötürülməsi yoxlanılır.
-  
-
-    ## Transfer  Testing
+   
+   -  ## Transfer  Testing
     - ### Düzgün istifadəçi məlumatları ilə istənilən bank kartına transfer mümkündür.
     - ### Mənim kart hesablarım arasında pul köçürmə fünksiyası düzgündür
     - ### Balansdan artıq məbləğ daxil edildikdə " Insufficient balance.Please check your account balance. "  xəbərdarlıq mesajı görünür
